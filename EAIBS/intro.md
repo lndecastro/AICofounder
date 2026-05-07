@@ -276,7 +276,7 @@ The Blueprint is not a finished business plan, it is a **living document** desig
 refined, tested, and evolved as you move from planning to building. At the end of Module 4,
 you will assemble all four pieces into a single cohesive artifact.
 
-## Program Roadmap at a Glance
+## 9. Program Roadmap at a Glance
 
 | Session | Theme | Core Focus |
 |---|---|---|
