@@ -1,4 +1,4 @@
-# Session 1: The AI Cofounder Mindset
+# Module 1: The AI Cofounder Mindset
 
 **Duration:** 2 hours | **Blueprint Piece:** Strategic Positioning Statement
 
