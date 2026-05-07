@@ -20,7 +20,7 @@ This Jupyter Book is your **interactive guide** through the company-building pro
 entrepreneurial mindset and opportunity discovery to business modeling and investor pitching,
 with AI tools woven into every stage.
 
-## Program Goals
+## 1. Program Goals
 
 The goal of this program is to equip learners with the entrepreneurial frameworks and
 AI-augmented skills to confidently plan, design, and communicate a new company or venture.
@@ -33,9 +33,10 @@ By the end of this journey, you will:
   and business model design, augmented by AI at each stage.
 - Build and use an **AI Cofounder Workspace**: a sharable, persistent and context-rich AI environment
   that evolves alongside your company concept across all four sessions.
+- Build and use an **AI Assistant** to serve as the engine of a chatbot for your company. 
 - Develop and communicate a compelling business case through an AI-assisted pitch.
 
-## Learning Objectives
+## 2. Learning Objectives
 
 By completing this program, you will be able to:
 
@@ -53,7 +54,7 @@ By completing this program, you will be able to:
 - Design and deliver an elevator pitch and pitch deck draft, enhanced by AI tools.
 - Critically evaluate AI outputs and maintain human judgment throughout the planning process.
 
-## Learning Philosophy and Approach
+## 3. Learning Philosophy and Approach
 
 This program embraces a **human-centered, practice-first philosophy**. The entrepreneurial
 process is inherently iterative, ambiguous, and human. AI does not replace that; it amplifies
@@ -77,7 +78,7 @@ Key principles guiding this program:
   Entrepreneurship and prompt engineering share a core skill: asking the right question in the
   right context. This program develops both simultaneously.
 
-## 1. The AI Workspace: Your Cofounder's Design Environment 
+## 4. The AI Workspace: Your Cofounder's Design Environment 
 
 One of the most powerful, and underused, features of modern GenAI platforms is the ability
 to create a **persistent AI Workspace**: a dedicated environment where your AI assistant
@@ -94,7 +95,7 @@ feed that context back into your Workspace. So, by Module 4, your AI cofounder k
 mission, your customer, your business model, and your competitive landscape, and can help you
 build a pitch grounded in everything you have developed together.
 
-### 1.1 Setting Up Your AI Cofounder Workspace
+### Setting Up Your AI Cofounder Workspace
 
 Different GenAI platforms offer equivalent workspace features under different names:
 
@@ -122,9 +123,107 @@ Workspace does. The difference between a useful AI tool and a genuine strategic 
 is *context* — and you are going to build that context deliberately, piece by piece.
 ```
 
----
+## 5. The Personalized Assistant: Your AI Cofounder's Identity
 
-## The Role of Generative AI in This Program
+While the AI Workspace gives your AI cofounder *memory*, a **Personalized Assistant** gives
+it *identity*, a defined name, role, persona, expertise, and set of capabilities configured
+specifically for your startup. Think of the two as complementary layers of the same
+relationship:
+
+| | AI Workspace (Project) | Personalized Assistant |
+|---|---|---|
+| **What it provides** | Memory: accumulated context about your company | Identity: a defined persona and role |
+| **Who uses it** | You, as the founder doing strategic planning | You + anyone you choose to share it with |
+| **How it behaves** | Evolves as you feed it more context | Consistently "in character" based on its instructions |
+| **Best used for** | Iterative planning, research, document drafting | Q&A, demos, customer simulation, team onboarding |
+| **Platform examples** | Claude Projects, ChatGPT Projects | Custom GPTs, Gemini Gems |
+
+Together, the Workspace and the Personalized Assistant form your **AI Cofounder setup**: 
+a private planning environment where strategy is developed, and a deployable AI
+representative that embodies your startup for any audience.
+
+### 5.1 What a Personalized Assistant Does
+
+A Personalized Assistant is a pre-configured AI chatbot that you design, instruct, and
+deploy for a specific purpose. Unlike a generic AI chat, it:
+
+- Has a **defined name and persona** (e.g., *"Nova — AI Strategy Advisor for GreenTrace"*)
+- Operates under **specific instructions** that keep it focused on your startup's domain,
+  tone, and goals
+- Can be loaded with **company knowledge**, your Blueprint pieces, your product
+  documentation, your FAQs, as an embedded knowledge base
+- Can be **shared with others**: team members, customers, advisors, or investors
+  exploring your concept
+- Maintains **consistent behavior** every time it is accessed. It does not drift or forget
+  its role the way a generic chat might
+
+### 5.2 How the Two Tools Work Together
+
+In this program, you will configure your Personalized Assistant in Module 1 and use it
+progressively throughout the four modules, loading it with each Blueprint piece as you
+complete it, just as you do with the Workspace. By Module 4, your Personalized Assistant
+will be a fully briefed AI representative of your startup, capable of:
+
+- Answering questions about your company's mission, product, and value proposition
+- Simulating investor Q&A for pitch practice
+- Onboarding new team members or collaborators
+- Serving as a demo artifact that showcases how your startup uses AI
+
+### 5.3 Setting Up Your Personalized Assistant
+
+Different platforms use different terminology, but the setup logic is consistent:
+
+| Platform | Feature | How to Create | Key Capability |
+|---|---|---|---|
+| **ChatGPT** (OpenAI) | Custom GPTs | chatgpt.com → Explore GPTs → Create | Conversational builder, web browsing, image generation, Actions (API calls) |
+| **Gemini** (Google) | Gems | gemini.google.com → Gems → Create a Gem | Custom instructions, Google Workspace integration |
+| **Copilot** (Microsoft) | Copilot Studio Agents | copilotstudio.microsoft.com | Enterprise integration, Teams deployment |
+
+Regardless of platform, every Personalized Assistant requires three core configuration
+elements:
+
+1. **Name and persona**: Give your assistant a name and a brief description of its role.
+   This anchors its identity for every user who interacts with it.
+
+2. **System instructions**: A structured set of guidelines that tell the assistant *who it
+   is, what it knows, how it should behave, and what it should not do*. This is the most
+   important configuration element. You will write this in Module 1.
+
+3. **Knowledge base**: Documents, FAQs, or text that the assistant can draw on when
+   answering questions. You will populate this progressively with your Blueprint pieces.
+
+### 5.4 The Personalized Assistant System Prompt Template
+
+Use this template as the starting point for your assistant's system instructions, adapting
+every bracketed field to your startup:
+
+```
+You are [ASSISTANT NAME], the AI cofounder and strategic advisor for [COMPANY NAME].
+
+[COMPANY NAME] is [ONE-SENTENCE DESCRIPTION OF WHAT THE COMPANY DOES AND FOR WHOM].
+
+Your role is to represent this company accurately, thoughtfully, and consistently. You:
+- Know the company's mission, vision, core values, and unique value proposition
+- Understand the target customer deeply, their pains, gains, and jobs-to-be-done
+- Can explain the business model, revenue approach, and competitive positioning
+- Can answer questions from investors, customers, partners, and team members
+
+When you do not know something specific about the company, say so honestly and suggest
+where the person could find out more. Do not invent facts about the company.
+
+Tone: [e.g., "professional but approachable" / "bold and visionary" / "technical and precise"]
+Audience: [e.g., "early-stage investors and potential customers"]
+Language: [e.g., "plain English, avoid jargon unless the user is clearly technical"]
+```
+
+```{note}
+**Tip:** Your Personalized Assistant is only as good as its instructions and knowledge base. Spend time
+refining the system prompt, because it is the most leveraged writing you will do in this program.
+A well-written assistant set of instructions and knowledge base will improve every conversation anyone has with your
+startup's AI cofounder.
+```
+
+## 6. The Role of Generative AI in This Program
 
 In AI Cofounder, GenAI tools serve as **strategic thinking partners** — not ghostwriters, not
 answer machines. Throughout this program, AI assists with:
@@ -146,9 +245,8 @@ However, AI does not replace:
 In every activity in this program, *you* are the decision-maker. The AI is your research
 partner, devil's advocate, and drafting assistant — but the company is yours.
 
----
 
-## How to Use This Book
+## 7. How to Use This Book
 
 - Navigate sessions using the left-hand sidebar or the **Next / Previous** buttons at the
   bottom of each page.
@@ -162,25 +260,21 @@ partner, devil's advocate, and drafting assistant — but the company is yours.
 - Use this book alongside the live sessions, Canvas course materials, and AI demonstrations
   offered by the **FGCU AI Academy**.
 
----
+## 8. Your AI Company Blueprint
 
-## Your AI Company Blueprint
+The **AI Company Blueprint** is the cumulative deliverable of this program: a structured,
+AI-assisted planning artifact you build progressively across all four modules.
 
-The **AI Company Blueprint** is the cumulative deliverable of this program — a structured,
-AI-assisted planning artifact you build progressively across all four sessions.
-
-| Session | Blueprint Piece | What It Contains |
+| Module | Blueprint Piece | What It Contains |
 |---|---|---|
 | **1** | Strategic Positioning Statement | Mission, vision, core values, problem description, unique value proposition, SWOT analysis |
 | **2** | Customer Persona + Value Proposition | Target customer profile, customer pains and gains, value map, jobs-to-be-done |
 | **3** | Business Model Canvas | All 9 BMC blocks, unit economics basics, key assumptions |
-| **4** | Elevator Pitch + Pitch Deck Draft | 60-second pitch script, 10-slide deck outline |
+| **4** | Elevator Pitch + Pitch Deck Draft | 180-second pitch script, 10-slide deck outline |
 
-The Blueprint is not a finished business plan — it is a **living document** designed to be
-refined, tested, and evolved as you move from planning to building. At the end of Session 4,
+The Blueprint is not a finished business plan, it is a **living document** designed to be
+refined, tested, and evolved as you move from planning to building. At the end of Module 4,
 you will assemble all four pieces into a single cohesive artifact.
-
----
 
 ## Program Roadmap at a Glance
 
@@ -191,21 +285,17 @@ you will assemble all four pieces into a single cohesive artifact.
 | **3** | *Business Model & Planning with AI* | Lean startup · Business Model Canvas · Legal essentials · Funding landscape |
 | **4** | *From Plan to Pitch with AI* | Pitch deck design · Entrepreneurial storytelling · AI-enhanced delivery · Blueprint assembly |
 
----
-
 ## Reflection
 
 As you begin this program, consider the following questions:
 
-- What problem do you most want to solve — and who would benefit most if you solved it?
+- What problem do you most want to solve and who would benefit most if you solved it?
 - How might AI change what is possible for you as an entrepreneur, compared to five years ago?
 - What does it mean to *work with* an AI rather than simply *use* one?
 - What will human founders need to be uniquely good at in a world where AI handles much of
   the analytical and drafting work?
 
-Revisit these questions at the end of Session 4. Your answers will have changed.
-
----
+Revisit these questions at the end of Module 4. Your answers will have changed.
 
 ## About the Instructor – Dr. Leandro Nunes de Castro
 
@@ -213,14 +303,12 @@ Revisit these questions at the end of Session 4. Your answers will have changed.
   U.A. Whitaker College of Engineering, FGCU.
 - Ph.D. in Computer Engineering with 30 years of experience in **Artificial Intelligence,
   Data Science, and Natural Computing**.
-- Director of the **Dendritic Institute for Artificial Intelligence and Data Science** at FGCU.
+- Founding Director of the **Dendritic Institute for Artificial Intelligence and Data Science** at FGCU.
 - Author of various AI and Data Science books and papers, and recognized among the
   **Top 2% most influential researchers in Computer Science worldwide**.
 - Experienced entrepreneur, researcher, and educator with a focus on applying AI for
   innovation, business, and societal impact.
 - Active mentor and collaborator with international academic and industry partners.
-
----
 
 ## 🧾 Acknowledgements
 
