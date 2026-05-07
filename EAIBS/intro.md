@@ -7,20 +7,18 @@ for Human-Centered AI & Data Science** at Florida Gulf Coast University.
 designed for anyone who wants to build, plan, or grow a company in the age of artificial
 intelligence. Whether you are an aspiring entrepreneur with an idea, a professional exploring a
 new venture, or a business owner looking to reinvent your strategy, this program gives you the
-mindset, tools, and frameworks to move from concept to plan — with AI as your strategic partner
+mindset, tools, and frameworks to move from concept to plan, with AI as your strategic partner
 at every step.
 
 This program is not about coding, machine learning, or building software. It is about learning
-to *think and plan like a founder* — and doing that thinking and planning *with AI as your
+to *think and plan like a founder*, and doing that thinking and planning *with AI as your
 cofounder*. By the end of this journey, you will have produced an **AI Company Blueprint**: a
 structured, AI-assisted planning artifact that covers your strategy, your customers, your
 business model, and your pitch.
 
-This Jupyter Book is your **interactive guide** through the company-building process — from
-entrepreneurial mindset and opportunity discovery to business modeling and investor pitching —
+This Jupyter Book is your **interactive guide** through the company-building process, from
+entrepreneurial mindset and opportunity discovery to business modeling and investor pitching,
 with AI tools woven into every stage.
-
----
 
 ## Program Goals
 
@@ -31,13 +29,11 @@ By the end of this journey, you will:
 - Understand how AI is transforming entrepreneurship and what it means to build a company
   with AI as a strategic partner.
 - Use GenAI tools effectively for business research, strategic planning, and decision-making.
-- Apply foundational entrepreneurial frameworks — strategic positioning, customer development,
-  and business model design — augmented by AI at each stage.
-- Build and use an **AI Cofounder Workspace**: a persistent, context-rich AI environment
+- Apply foundational entrepreneurial frameworks, such as strategic positioning, customer development,
+  and business model design, augmented by AI at each stage.
+- Build and use an **AI Cofounder Workspace**: a sharable, persistent and context-rich AI environment
   that evolves alongside your company concept across all four sessions.
 - Develop and communicate a compelling business case through an AI-assisted pitch.
-
----
 
 ## Learning Objectives
 
@@ -47,7 +43,7 @@ By completing this program, you will be able to:
   competencies.
 - Set up and use an AI Workspace (Project) as a strategic co-thinking partner for business
   planning.
-- Craft effective prompts and contexts for entrepreneurial use cases — research, analysis,
+- Craft effective prompts and contexts for entrepreneurial use cases, including research, analysis,
   strategy, and communication.
 - Define your startup's mission, vision, value proposition, and competitive position using
   AI-assisted frameworks.
@@ -57,12 +53,10 @@ By completing this program, you will be able to:
 - Design and deliver an elevator pitch and pitch deck draft, enhanced by AI tools.
 - Critically evaluate AI outputs and maintain human judgment throughout the planning process.
 
----
-
 ## Learning Philosophy and Approach
 
 This program embraces a **human-centered, practice-first philosophy**. The entrepreneurial
-process is inherently iterative, ambiguous, and human — AI does not replace that; it amplifies
+process is inherently iterative, ambiguous, and human. AI does not replace that; it amplifies
 it.
 
 Key principles guiding this program:
@@ -72,37 +66,35 @@ Key principles guiding this program:
   AI is the accelerator, not the author.
 
 - **Build while you learn.**
-  Each session produces a concrete piece of your AI Company Blueprint. By Session 4, you
-  leave with a real artifact — not just notes.
+  Each module produces a concrete piece of your AI Company Blueprint. By Module 4, you
+  leave with a real artifact, not just notes.
 
 - **Iteration over perfection.**
   Company plans evolve. Treat every AI output as a starting point to critique, refine, and
-  improve — not as a finished answer.
+  improve, not as a finished answer.
 
 - **The best prompt is a well-framed question.**
   Entrepreneurship and prompt engineering share a core skill: asking the right question in the
   right context. This program develops both simultaneously.
 
----
+## 1. The AI Workspace: Your Cofounder's Design Environment 
 
-## The AI Workspace: Your Cofounder's Memory
-
-One of the most powerful — and underused — features of modern GenAI platforms is the ability
+One of the most powerful, and underused, features of modern GenAI platforms is the ability
 to create a **persistent AI Workspace**: a dedicated environment where your AI assistant
 retains context about your company, your goals, and your decisions across multiple
 conversations.
 
 Think of it this way: a human cofounder remembers your previous conversations, knows your
 company's mission, understands your target customer, and builds on what you discussed last
-week. An AI Workspace does exactly that — it gives your AI cofounder *memory*.
+week. An AI Workspace does exactly that, it gives your AI cofounder *memory and knowledge*.
 
-In this program, you will set up your **AI Cofounder Workspace** at the beginning of Session 1,
-and you will use it across all four sessions. As you complete each Blueprint piece, you will
-feed that context back into your Workspace — so by Session 4, your AI cofounder knows your
+In this program, you will set up your **AI Cofounder Workspace** at the beginning of Module 1,
+and you will use it across all modules. As you complete each Blueprint piece, you will
+feed that context back into your Workspace. So, by Module 4, your AI cofounder knows your
 mission, your customer, your business model, and your competitive landscape, and can help you
 build a pitch grounded in everything you have developed together.
 
-### Setting Up Your AI Cofounder Workspace
+### 1.1 Setting Up Your AI Cofounder Workspace
 
 Different GenAI platforms offer equivalent workspace features under different names:
 
@@ -110,18 +102,18 @@ Different GenAI platforms offer equivalent workspace features under different na
 |---|---|---|
 | **Claude** (Anthropic) | Projects | claude.ai → New Project |
 | **ChatGPT** (OpenAI) | Projects | chatgpt.com → Projects |
-| **Gemini** (Google) | Gems | gemini.google.com → Gems |
-| **Copilot** (Microsoft) | Notebook / Pages | copilot.microsoft.com |
+| **Perplexity** | Spaces | perplexity.com → Spaces |
+| **Grok** (X.ai) | Projects | x.ai → Projects |
 
 Regardless of platform, the setup follows the same logic:
 
 1. **Create a new Workspace** named after your company concept
    (e.g., *"GreenTrace Startup"* or *"MedAssist Ventures"*).
 2. **Write a Workspace System Prompt** — a short paragraph that introduces your company
-   idea, your role, and what you want the AI to help with. You will draft this in Session 1.
+   idea, your role, and what you want the AI to help with. You will draft this in Module 1.
 3. **Feed each Blueprint piece** into the Workspace as you complete it, so the AI
    accumulates context progressively across the four sessions.
-4. **Run all program activities inside this Workspace** — not in a generic chat window.
+4. **Run all program activities inside this Workspace**, not in a generic chat window.
    This is what makes the AI a genuine cofounder rather than a one-off assistant.
 
 ```{note}
