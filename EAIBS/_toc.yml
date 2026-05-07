@@ -4,23 +4,14 @@
 format: jb-book
 root: intro.md
 chapters:
-  - file: Topic_1_The_GenAI_Toolkit.md
-    title: "Topic 1: The GenAI Toolkit"
-  - file: Topic_2_AI_Literacy.md
-    title: "Topic 2: AI Literacy"
-  - file: Topic_3_Strategic_Positioning.md
-    title: "Topic 3: Strategic Positioning"
-  - file: Topic_4_Customer_Development.md
-    title: "Topic 4: Customer Development"
-  - file: Topic_5_Design_Thinking_Ideation.md
-    title: "Topic 5: Design Thinking and Ideation"
-  - file: Topic_6_Lean_Startup.md
-    title: "Topic 6: Lean Startup"
-  - file: Topic_7_BMC.md
-    title: "Topic 7: Business Model Canvas (BMC)"
-  - file: Topic_8_Legal_Ethics.md
-    title: "Topic 8: Legal and Ethics for Startups"
-  - file: Topic_9_Funding.md
-    title: "Topic 9: Funding and Investment Readiness"
-  - file: Topic_10_Pitch.md
-    title: "Topic 10: Pitching Your Startup"
+  - file: Module1_AI_Cofounder_Mindset.md
+    title: "Module 1: The AI Cofounder Mindset"
+  - file: Module2_Customer_Idea_Discovery.md
+    title: "Module 2: Customer & Idea Discovery with AI"
+  - file: Module3_Business_Model_Planning.md
+    title: "Module 3: Business Modelling & Planning with AI"
+  - file: Module4_Plan_to_Pitch.md
+    title: "Module 4: From Plan to Pitch with AI"
+  - file: Appendix.md
+    title: "Appendix: Ethics & Responsible AI"
+  
