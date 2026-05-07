@@ -1,8 +1,6 @@
 # Session 1: The AI Cofounder Mindset
 
-**Duration:** 2 hours | **Blueprint Piece:** Strategic Positioning Statement
-
----
+**Blueprint Piece:** Strategic Positioning Statement
 
 ## Session Overview
 
@@ -15,14 +13,12 @@
 | 1.5 | Strategic Positioning with AI | 30 min |
 | 📋 | Blueprint Checkpoint 1: Strategic Positioning Statement | 20 min |
 
----
-
 ## 1.1 The AI Entrepreneurship Revolution
 
 We are living through the most significant shift in the history of company-building. For
 decades, founding a company required assembling a full team, raising substantial capital, and
 spending months on research before validating a single idea. Today, a single founder with the
-right AI tools can compress that process dramatically — running market research, simulating
+right AI tools can compress that process dramatically, running market research, simulating
 customer conversations, drafting legal structures, and building a pitch deck in the time it
 once took to schedule the first meeting.
 
@@ -33,7 +29,7 @@ This is not hyperbole. Consider a few data points from 2024–2025:
 - Solo founders and micro-teams are launching and validating products in days rather than
   months, using AI for everything from code generation to customer research.
 - Investors increasingly expect founders to demonstrate AI literacy as a baseline
-  entrepreneurial competency — not just as a technical skill, but as a *strategic* one.
+  entrepreneurial competency, not just as a technical skill, but as a *strategic* one.
 
 ### What Has Actually Changed?
 
@@ -54,7 +50,7 @@ shifts from *access to resources* to *quality of thinking and judgment*.
 | Pitch development | Trial and error with mentors | AI-coached iteration with real-time feedback |
 | Legal & financial basics | Expensive specialist access | AI-explained frameworks + specialist review |
 
-The key insight: **AI doesn't replace founders — it replaces the delays between good ideas and
+The key insight: **AI doesn't replace founders, but it replaces the delays between good ideas and
 informed decisions.**
 
 ### The AI Cofounder Metaphor
@@ -62,23 +58,21 @@ informed decisions.**
 Throughout this program, we treat AI not as a tool you *use*, but as a cofounder you *work
 with*. A great cofounder brings complementary skills, challenges your thinking, helps you do
 more with less, and is available around the clock. That is precisely what a well-configured AI
-Workspace does — when you use it deliberately.
+Workspace does when you use it deliberately.
 
 The metaphor has limits. Your AI cofounder has no skin in the game, no lived experience of
 your market, and no ability to shake hands with an investor. Human judgment, relationships, and
 domain expertise remain irreplaceable. But within the planning and thinking process, AI is
-now genuinely cofounding-capable — and this program will show you how.
-
----
+now genuinely cofounding-capable, and this program will show you how.
 
 ## 1.2 The AI-Enhanced Entrepreneur: Ten Competencies Reimagined
 
 Entrepreneurship research has long identified a set of core competencies that distinguish
-successful founders from would-be ones. These are not technical skills — they are behavioral
+successful founders from would-be ones. These are not technical skills, they are behavioral
 and cognitive patterns: how founders seek opportunity, persist through failure, manage risk, and
 build relationships. With the rise of AI, each of these competencies has been reshaped. The
 table below presents the **traditional ten entrepreneurial competencies** alongside their
-**AI-enhanced counterparts** — showing not how AI replaces these qualities, but how it
+**AI-enhanced counterparts**, showing not how AI replaces these qualities, but how it
 amplifies them.
 
 | # | Traditional Competency | AI-Enhanced Competency |
@@ -96,30 +90,26 @@ amplifies them.
 
 ```{note}
 **Reflection:** Which of these ten competencies do you consider your strongest? Where could
-an AI cofounder most amplify your natural tendencies — and where might it compensate for a
+an AI cofounder most amplify your natural tendencies, and where might it compensate for a
 genuine gap?
 ```
 
----
-
 ## 1.3 Setting Up Your AI Cofounder Workspace & Personalized Assistant
 
-Before you engage with any strategic framework, you need your AI cofounder in the room —
+Before you engage with any strategic framework, you need your AI cofounder in the room
 and set up properly. In this block you will configure two complementary tools that together
-form your complete AI Cofounder setup:
+form your core AI Cofounder setup:
 
-- **The AI Workspace (Project)**: your private strategic planning environment — where you
+- **The AI Workspace (Project)**: your private strategic planning environment, where you
   think, plan, and iterate across all four sessions.
-- **The Personalized Assistant**: your startup's AI representative — a named, configured
+- **The Personalized Assistant**: your startup's AI representative, a named, configured
   chatbot that you will load with company knowledge and can share with others.
 
-Both are set up in Session 1 and used progressively throughout the program.
-
----
+Both are set up in Module 1, evolved and used progressively throughout the program.
 
 ### Part A — Your AI Cofounder Workspace
 
-**Step 1 — Choose your platform and create a Workspace**
+**Step 1 — Choose your platform and create an AI Workspace**
 
 Open your preferred GenAI platform and create a new Project (or equivalent):
 
@@ -127,17 +117,15 @@ Open your preferred GenAI platform and create a new Project (or equivalent):
 |---|---|
 | Claude | Go to claude.ai → click **Projects** → **New Project** → name it after your company concept |
 | ChatGPT | Go to chatgpt.com → click **Projects** → **New Project** |
-| Gemini | Go to gemini.google.com → click **Gems** → **New Gem** |
-| Copilot | Go to copilot.microsoft.com → open **Notebook** |
+| Grok | Go to grok.com → click **Projects** → **New Project** |
+| Perplexity | Go to perplexity.com → **Spaces** |
 
-Name your Workspace something meaningful — use your company name or concept
+Name your Workspace something meaningful, for example use your company name or concept
 (e.g., *"EcoTrack Startup"*, *"MindBridge Ventures"*, *"My AI Cofounder"*).
-
----
 
 **Step 2 — Write your Workspace System Prompt**
 
-The system prompt is the briefing you give your AI cofounder on Day 1 — who you are, what
+The system prompt is the briefing you give your AI cofounder on Day 1, including who you are, what
 your company is about, and how you want it to work with you. Use this template as your
 starting point:
 
@@ -148,22 +136,23 @@ You are my AI cofounder and strategic thinking partner. I am building a company 
 My role is [YOUR ROLE/BACKGROUND — e.g., "a first-time founder with a background in
 marketing"]. I am in the early planning stage.
 
-Your job is to help me think strategically — challenge my assumptions, offer alternative
+Your job is to help me think strategically, challenge my assumptions, offer alternative
 perspectives, help me research and structure ideas, and co-develop the documents that
 will form my company's business plan. Be direct, constructive, and honest when my
 thinking has gaps.
 
 Throughout our work together, I will share key planning documents with you so you can
 build on them. Always maintain context from our previous conversations in this Workspace.
-```
 
----
+Based on this context, I need you to write the Instructions I am going to input in my AI Workspace (project).
+Be concise and organize the instructions by categories.
+```
 
 **Step 3 — Test your Workspace**
 
-Once your system prompt is set, send this first message:
+Once your workspace instructions are set, send this first message:
 
-🤖 **Try this in your Workspace:**
+**Try this in your Workspace:**
 ```
 In one paragraph, reflect back to me what you understand about the company I am building
 and what kind of cofounder you will be in this process. Then ask me the single most
@@ -171,16 +160,14 @@ important question you would want answered before we start working on strategy.
 ```
 
 If the response demonstrates understanding of your concept and asks a sharp, relevant
-question — your Workspace is working. If it sounds generic, refine your system prompt.
-
----
+question, then your Workspace is working. If it sounds generic, refine your prompt or instructions.
 
 ### Part B — Your Personalized Assistant
 
 Your Personalized Assistant is your startup's AI representative: a named, role-specific
 chatbot configured to know your company and interact consistently on its behalf. While the
-Workspace is where *you* plan privately, the Personalized Assistant is where *anyone* —
-team members, early customers, advisors, or investors — can engage with an AI version of
+Workspace is where *you* plan privately, the Personalized Assistant is where *anyone*, including
+team members, early customers, advisors, or investors, can engage with an AI version of
 your startup.
 
 **Step 4 — Choose your platform and create a Personalized Assistant**
@@ -189,11 +176,7 @@ your startup.
 |---|---|---|
 | **ChatGPT** | Custom GPTs | chatgpt.com → Explore GPTs → **Create** |
 | **Gemini** | Gems | gemini.google.com → Gems → **Create a Gem** |
-| **Claude** | Project with persona | claude.ai → New Project → **Custom instructions** |
 | **Copilot Studio** | Copilot Agents | copilotstudio.microsoft.com → **New agent** |
-| **Poe** | Bots | poe.com → **Create Bot** |
-
----
 
 **Step 5 — Name and describe your assistant**
 
@@ -204,12 +187,10 @@ Give your assistant a name that reflects its role in your startup. A few princip
   assistant does in one sentence
 - Use your company's voice and tone from the first word
 
----
-
 **Step 6 — Write your assistant's system instructions**
 
 This is the most important configuration step. The system instructions define everything
-about how the assistant behaves — its knowledge, its tone, its boundaries, and its purpose.
+about how the assistant behaves: its knowledge, its tone, its boundaries, and its purpose.
 Use this template as your foundation:
 
 ```
@@ -221,7 +202,7 @@ benefit it delivers].
 Your role is to represent this company accurately, thoughtfully, and consistently.
 You know:
 - The company's mission, vision, and core values
-- The target customer — their key pains, gains, and goals
+- The target customer, their key pains, gains, and goals
 - The unique value proposition and how it differs from alternatives
 - The business model and how the company makes money
 - The founding team's background and why they are the right people for this
@@ -230,33 +211,29 @@ When speaking with investors: emphasize traction, market size, and the team.
 When speaking with customers: emphasize value, benefits, and how to get started.
 When speaking with potential partners: emphasize strategic fit and mutual benefit.
 
-If you do not know a specific detail about the company, say so honestly — do not
+If you do not know a specific detail about the company, say so honestly, do not
 invent facts. Suggest where the person can get more information.
 
-Tone: [e.g., "confident, warm, and clear — no jargon unless the user is clearly technical"]
+Tone: [e.g., "confident, warm, and clear, no jargon unless the user is clearly technical"]
 Language: [e.g., "plain English, conversational, direct"]
 ```
 
----
-
 **Step 7 — Load your first knowledge document**
 
-At this stage, your company concept is still forming — but you can already upload or paste
+At this stage, your company concept is still forming, but you can already upload or paste
 in anything you have: a brief description of your idea, your draft mission statement, or
 even just a paragraph about the problem you are solving. The assistant will draw on this
 when answering questions.
 
-After each session, update your assistant's knowledge base with your latest Blueprint piece.
-By Session 4, it will be fully briefed on your entire company.
-
----
+After each module, update your assistant's knowledge base with your latest Blueprint piece.
+By Module 4, it will be fully briefed on your entire company.
 
 **Step 8 — Test your Personalized Assistant**
 
-Once set up, test it with these three questions — the same ones any investor, customer, or
+Once set up, test it with these three questions, the same ones any investor, customer, or
 partner would ask first:
 
-🤖 **Test prompts for your Personalized Assistant:**
+**Test prompts for your Personalized Assistant:**
 ```
 1. "Tell me about your company in one minute."
 2. "What problem are you solving and who has it?"
@@ -270,11 +247,9 @@ instructions until all three pass.
 ```{note}
 **The key distinction:** Your Workspace is where your AI cofounder *thinks with you*.
 Your Personalized Assistant is where your startup *speaks for itself*. Both are
-essential — and both improve as you feed them more of your company context throughout
+essential, and both improve as you feed them more of your company context throughout
 the program.
 ```
-
----
 
 ## 1.4 The GenAI Toolkit for Founders
 
@@ -286,7 +261,7 @@ AI collaboration depends on two foundational skills: **prompt engineering** and
 
 Prompt engineering is the practice of crafting inputs that reliably guide AI toward useful,
 relevant outputs. In an entrepreneurial context, this means knowing how to ask strategic
-questions — not just *what* you want, but *who you are*, *what context matters*, and *what
+questions, not just *what* you want, but *who you are*, *what context matters*, and *what
 format serves you*.
 
 **Anatomy of a high-quality founder prompt:**
@@ -295,33 +270,41 @@ format serves you*.
 |---|---|---|
 | **Role** | Tells the AI what expertise to bring | *"You are an experienced market research analyst..."* |
 | **Context** | Grounds the AI in your situation | *"...working with a B2C health-tech startup targeting Gen Z in the US..."* |
-| **Task** | Specifies what you need | *"...identify the top three competitors in this space..."* |
-| **Constraints** | Shapes format and scope | *"...and present your findings in a table with columns for name, core product, and key differentiator."* |
+| **Task (instruction)** | Specifies what you need | *"...identify the top three competitors in this space..."* |
+| **Output format** | Shapes format and scope | *"...and present your findings in a table with columns for name, core product, and key differentiator."* |
 
 **Common prompt patterns for founders:**
 
 1. **The Competitor Scan**
-   *"You are a startup analyst. List the top 5 companies competing in [space], and for each, identify their core value proposition, primary customer segment, and one notable weakness."*
+```
+You are a startup analyst. List the top 5 companies competing in [space], and for each, identify their core value proposition, primary customer segment, and one notable weakness.
+```
 
-2. **The Devil's Advocate**
-   *"I am about to pitch the following idea: [your idea]. Play devil's advocate. Identify the three strongest objections an experienced investor would raise, and suggest how I might address each."*
+3. **The Devil's Advocate**
+```
+I am about to pitch the following idea: [your idea]. Play devil's advocate. Identify the three strongest objections an experienced investor would raise, and suggest how I might address each.
+```
 
-3. **The Customer Simulator**
-   *"You are a [specific customer persona — e.g., 'a 42-year-old small business owner in retail who struggles with inventory management']. I am going to ask you questions about your challenges. Stay in character and respond as this person would."*
+5. **The Customer Simulator**
+```
+You are a [specific customer persona — e.g., 'a 42-year-old small business owner in retail who struggles with inventory management']. I am going to ask you questions about your challenges. Stay in character and respond as this person would.
+```
 
-4. **The Framework Applier**
-   *"Apply a SWOT analysis to the following startup concept: [your concept]. Be specific and honest — include genuine weaknesses and real threats, not just generic placeholders."*
+6. **The Framework Applier**
+```
+Apply a SWOT analysis to the following startup concept: [your concept]. Be specific and honest, including genuine weaknesses and real threats, not just generic placeholders.
+```
 
-5. **The Pitch Stress-Tester**
-   *"Here is my value proposition: [your UVP]. Rewrite it three different ways — one for a first-time customer, one for an investor, and one for a potential partner. Then tell me which version is strongest and why."*
-
----
+7. **The Pitch Stress-Tester**
+```
+Here is my value proposition: [your UVP]. Rewrite it three different ways, one for a first-time customer, one for an investor, and one for a potential partner. Then tell me which version is strongest and why.
+```
 
 ### Context Engineering for Founders
 
 Context engineering goes one level deeper than individual prompts. It is the practice of
-deliberately designing the *environment* in which AI operates — the system prompt, the
-documents you share, the conversation history — so that every response it generates is
+deliberately designing the *environment* in which AI operates, the system prompt, the
+documents you share, the conversation history, so that every response it generates is
 grounded in your specific company reality.
 
 **Key context engineering techniques:**
@@ -329,8 +312,8 @@ grounded in your specific company reality.
 - **Persona anchoring**: Define your AI cofounder's role and constraints clearly in the
   system prompt so its responses stay in character across conversations.
 - **Document injection**: Paste your completed Blueprint pieces into the Workspace at the
-  start of each session so the AI builds on your actual work, not generic examples.
-- **Constraint framing**: Tell the AI what *not* to do — "Do not suggest pivoting away from
+  start of each module so the AI builds on your actual work, not generic examples.
+- **Constraint framing**: Tell the AI what *not* to do, for example, "Do not suggest pivoting away from
   the B2B model," "Focus only on the Southwest Florida market for now."
 - **Iterative refinement**: Treat AI outputs as drafts, not deliverables. Always follow up
   with: *"What are the weaknesses in this analysis?"* or *"What important factor are you
@@ -342,24 +325,20 @@ company, the more valuable its responses become. Every piece of context you add 
 investment in the quality of every future output.
 ```
 
----
-
 ## 1.5 Strategic Positioning with AI
 
 Strategic positioning defines *where your startup stands in the market, what it stands for,
-and how it differentiates itself.* It is the foundation on which everything else — your
-customer strategy, your business model, your pitch — must rest. Without it, every downstream
+and how it differentiates itself.* It is the foundation on which everything else (your
+customer strategy, your business model, your pitch) must rest. Without it, every downstream
 decision is built on sand.
 
 The Strategic Positioning framework used in this program covers seven interconnected elements,
 each of which you will develop with AI assistance.
 
----
-
 ### 1.5.1 Mission
 
-**What it is:** A concise statement of *why your company exists* — the problem it solves and
-for whom.
+**What it is:** A concise statement of *why your company exists*, the problem it solves and
+for whom. Try to describe it without explicitly saying it.
 
 **Guiding question:** *What problem are we solving, for whom, and why does it matter?*
 
@@ -367,14 +346,12 @@ for whom.
 - LinkedIn: *"Connect the world's professionals to make them more productive and successful."*
 - Patagonia: *"We're in business to save our home planet."*
 
-🤖 **Try this in your Workspace:**
+**Try this in your Workspace:**
 ```
 Based on my company concept, draft three alternative mission statements. Each should be
 one sentence, specific about the problem and the customer, and free of jargon. Then
 tell me which one is strongest and why.
 ```
-
----
 
 ### 1.5.2 Vision
 
@@ -383,29 +360,27 @@ tell me which one is strongest and why.
 **Guiding question:** *What future do we want to help build?*
 
 **Examples:**
-- Tesla: *"To accelerate the world's transition to renewable energy."*
-- FGCU: *"A community-focused institution driving positive change and shaping the future
-  of higher education."*
+- Tesla: *"To accelerate the world's transition to sustainable energy."*
+- FGCU: *"Florida Gulf Coast University (FGCU) aspires for national prominence and global recognition as a community-focused,
+comprehensive institution driving positive change and shaping the future of higher education."*
 
----
+**Exercise 1**: Create a prompt to suggest some alternative vision statements for your company.
 
 ### 1.5.3 Core Values
 
 **What it is:** The principles that guide internal behavior, decision-making, and culture.
 
-**Why it matters for AI founders:** Your values define how you *use* AI — whether you
+**Why it matters for AI founders:** Your values define how you *use* AI, whether you
 prioritize transparency, human oversight, data privacy, or equitable access. These are not
 just cultural statements; they are product and process commitments.
 
-🤖 **Try this in your Workspace:**
+**Try this in your Workspace:**
 ```
 Suggest five core values for my company, based on the mission and vision we have
 developed. For each value, write one sentence explaining what it means in practice for
-how we build the product and treat our customers. Flag any values that might create
+how we build our solution and treat our customers. Flag any values that might create
 tensions with each other.
 ```
-
----
 
 ### 1.5.4 Problem Description
 
@@ -414,22 +389,20 @@ tensions with each other.
 **Common mistakes founders make:**
 - Describing a symptom rather than a root problem.
 - Defining the problem in terms of their solution ("The problem is that there is no app for...").
-- Over-generalizing ("People waste time" is not a problem description — it is a category).
+- Over-generalizing ("People waste time" is not a problem description, it is a category).
 
 **A well-formed problem statement has three components:**
 1. *Who* experiences this problem (specific customer segment)
 2. *What* the problem is (specific pain, friction, or unmet need)
 3. *Why it matters* (consequence of the problem going unsolved)
 
-🤖 **Try this in your Workspace:**
+**Try this in your Workspace:**
 ```
 Here is my current problem description: [your draft]. Evaluate it against these criteria:
 (1) Is the customer segment specific enough? (2) Is the problem distinct from the
 solution? (3) Does it convey the consequence of the problem going unsolved?
 Then rewrite it to address any gaps.
 ```
-
----
 
 ### 1.5.5 Target Market and Customer Segments
 
@@ -447,14 +420,14 @@ and Design Thinking frameworks. In this session, identify your *primary* segment
 enough to ground your positioning work.
 ```
 
----
+**Exercise 2**: Create a prompt to identify the TAM, SAM, and SOM of your solution (product or service).
 
 ### 1.5.6 Unique Value Proposition (UVP)
 
 **What it is:** The specific, differentiated benefit your company offers that competitors do
-not — stated from the customer's perspective.
+not, stated from the customer's perspective.
 
-**A strong UVP answers:** *"Why should a customer choose you over every alternative — including
+**A strong UVP answers:** *"Why should a customer choose you over every alternative, including
 doing nothing?"*
 
 **The UVP formula:**
@@ -462,10 +435,10 @@ doing nothing?"*
 > [reason to believe].
 
 **Examples:**
-- Canva: *"Empowering the world to design"* — radically simple design tools for non-designers.
-- Stripe: *"Payments infrastructure for the internet"* — developer-first, globally scalable.
+- Canva: *"Empowering the world to design"* - radically simple design tools for non-designers.
+- Stripe: *"Payments infrastructure for the internet"* - developer-first, globally scalable.
 
-🤖 **Try this in your Workspace:**
+**Try this in your Workspace:**
 ```
 Draft three versions of a Unique Value Proposition for my company using this format:
 "For [customer], [company] is the [category] that [key benefit] because [reason to
@@ -473,8 +446,6 @@ believe]." Make each version target a slightly different angle: (1) focused on s
 efficiency, (2) focused on quality/outcome, (3) focused on accessibility/ease of use.
 Then recommend which best fits our strategic direction and why.
 ```
-
----
 
 ### 1.5.7 SWOT Analysis
 
@@ -497,14 +468,12 @@ Then recommend which best fits our strategic direction and why.
 - *Threats*: Rapid AI commoditization eroding differentiation, regulatory uncertainty, larger
   incumbents adopting AI faster.
 
-🤖 **Try this in your Workspace:**
+**Try this in your Workspace:**
 ```
 Conduct a SWOT analysis for my company based on everything we have developed so far.
 Be honest and specific — I need real weaknesses and real threats, not generic placeholders.
 For each weakness and threat, suggest one concrete mitigation strategy.
 ```
-
----
 
 ## 📋 Blueprint Checkpoint 1: Strategic Positioning Statement
 
@@ -519,7 +488,7 @@ Blueprint. Your **Strategic Positioning Statement** should include:
 - [ ] **Unique Value Proposition** (one sentence using the UVP formula)
 - [ ] **SWOT analysis** (2x2 table with 3–4 points per quadrant)
 
-**AI Cofounder Setup — confirm both tools are operational:**
+**AI Cofounder Setup: confirm both tools are operational:**
 
 - [ ] **AI Cofounder Workspace** created with system prompt written and tested
 - [ ] **Personalized Assistant** created with name, instructions, and initial knowledge loaded;
@@ -527,15 +496,15 @@ Blueprint. Your **Strategic Positioning Statement** should include:
 
 **Save both documents.** At the start of Session 2, paste your completed Strategic
 Positioning Statement into *both* your Workspace and your Personalized Assistant's knowledge
-base — so all future planning and all future conversations build on this foundation.
+base, so all future planning and all future conversations build on this foundation.
 
-### ⚙️ CW 1.1 — Strategic Positioning with AI
+### CW 1.1 — Strategic Positioning with AI
 
 **Instructions:**
 
-1. Using the prompts provided in section 1.5, work through each element of your Strategic
+1. Using the prompts provided in Section 1.5, work through each element of your Strategic
    Positioning Statement with your AI Cofounder Workspace.
-2. For each AI output, do not accept the first draft — push back with at least one follow-up
+2. For each AI output, do not accept the first draft, push back with at least one follow-up
    question or refinement request.
 3. Compile the refined outputs into your Blueprint Checkpoint document.
 4. Be prepared to share your Mission Statement and UVP with the group.
@@ -544,8 +513,6 @@ base — so all future planning and all future conversations build on this found
 
 **Expected output:** A completed Strategic Positioning Statement (draft quality — you will
 refine this throughout the program as your understanding deepens).
-
----
 
 ## Further Reading
 
