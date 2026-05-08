@@ -1,10 +1,8 @@
-# Session 3: Business Model & Planning with AI
+# Module 3: Business Model & Planning with AI
 
 **Duration:** 2 hours | **Blueprint Piece:** Business Model Canvas
 
----
-
-## Session Overview
+## Module Overview
 
 | Block | Topic | Time |
 |---|---|---|
@@ -15,30 +13,26 @@
 | 3.4 | The Funding Landscape | 10 min |
 | 📋 | Blueprint Checkpoint 3: Business Model Canvas | 20 min + 5 min debrief |
 
----
-
 ## Workspace Warm-Up
 
-Before starting this session, open your AI Cofounder Workspace and paste in your Customer
-Persona + Value Proposition Canvas from Session 2 (in addition to the Strategic Positioning
+Before starting this module, open your AI Cofounder Workspace and paste in your Customer
+Persona + Value Proposition Canvas from Module 2 (in addition to the Strategic Positioning
 Statement already there). Then send:
 
-🤖 **Try this in your Workspace:**
+**Reference Prompt**
 ```
 I have now shared both my Strategic Positioning Statement and my Customer Persona +
-Value Proposition Canvas with you. Today we are designing the business model — how the
+Value Proposition Canvas with you. Today we are designing the business model, how the
 company creates, delivers, and captures value. Given everything you know about my
 company, what do you see as the single most important business model decision I need
 to get right, and why?
 ```
 
----
-
 ## 3.1 Lean Startup Essentials
 
 The **Lean Startup** methodology, developed by Eric Ries, offers the most widely adopted
 framework for building a new company under conditions of extreme uncertainty. Its core insight
-is deceptively simple: *a startup's business plan is not a plan — it is a collection of
+is deceptively simple: *a startup's business plan is not a plan, it is a collection of
 hypotheses.* The job of the early-stage founder is to test those hypotheses as quickly and
 cheaply as possible, before committing significant resources to building the wrong thing.
 
@@ -46,18 +40,21 @@ cheaply as possible, before committing significant resources to building the wro
 
 The engine of the Lean Startup is the **Build-Measure-Learn** feedback loop:
 
-1. **Build**: Create the minimum artifact needed to test your hypothesis — this could be a
+1. **Build**: Create the minimum artifact needed to test your hypothesis. This could be a
    landing page, a paper prototype, a manual process, or a very limited feature set.
 2. **Measure**: Collect data on how real (or potential) customers respond to it.
-3. **Learn**: Decide whether to **persevere** (you were right — build more) or **pivot**
-   (you were wrong — change your hypothesis).
+3. **Learn**: Decide whether to **persevere** (you were right -> build more) or **pivot**
+   (you were wrong -> change your hypothesis).
 
 The goal is to minimize the time through each loop. The faster you learn, the faster you
 can converge on something customers actually want.
 
+![Build–Measure–Learn Loop](./Data/BMLLoop.png)  
+*Use B–M–L to validate both the **Value hypothesis** (“do users get value?”) and the **Growth hypothesis** (“how do new users find it?”).*
+
 ### 3.1.2 Validated Learning
 
-**Validated learning** is the unit of progress in the Lean Startup — not features shipped,
+**Validated learning** is the unit of progress in the Lean Startup, not features shipped,
 not code written, not slides produced. A startup makes progress when it *learns something true
 about its customers and market*, backed by real-world evidence.
 
@@ -78,6 +75,8 @@ A **Minimum Viable Product (MVP)** is not a stripped-down version of your full p
 is the smallest possible artifact that allows you to test your most critical hypothesis with
 real customers and generate validated learning.
 
+![Minimal Viable Product](./Data/MVP.png)  
+
 For non-technical founders, MVP options include:
 
 | MVP Type | Description | Example |
@@ -88,16 +87,14 @@ For non-technical founders, MVP options include:
 | **Prototype MVP** | A clickable mockup or demo to test UX and concept | Built in Figma, Gamma, or even PowerPoint |
 | **AI-Powered Demo MVP** | Use GenAI to simulate a feature before building it | Demo a personalized report by generating it live with AI |
 
-🤖 **Try this in your Workspace:**
+**Reference Prompt**
 ```
 Based on my company concept and the key assumptions in my Strategic Positioning
-Statement, identify my three riskiest assumptions — the ones where being wrong would
+Statement, identify my three riskiest assumptions, the ones where being wrong would
 most threaten the viability of the business. For each assumption, suggest the smallest
 possible MVP I could build to test it within 30 days, and describe what validated
 learning would look like (what result would tell me the assumption is correct?).
 ```
-
----
 
 ## 3.2 Business Model Canvas with AI
 
