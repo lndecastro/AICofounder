@@ -39,9 +39,11 @@ Developed by Steve Blank and popularized through the Lean Startup movement, cust
 development is built on a simple but powerful premise: **your business plan is a set of
 hypotheses, and customers are your testing ground.**
 
-> **Note:** AI does not replace real customer conversations. But it dramatically accelerates and deepens
+:::{note}
+AI does not replace real customer conversations. But it dramatically accelerates and deepens
 the *preparation* for those conversations, and it can help you simulate, analyze, and
 synthesize what you learn from them.
+:::
 
 ### 2.1.1 The Customer Discovery Process
 
