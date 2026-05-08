@@ -1,10 +1,8 @@
-# Session 2: Customer & Idea Discovery with AI
+# Module 2: Customer & Idea Discovery with AI
 
 **Duration:** 2 hours | **Blueprint Piece:** Customer Persona + Value Proposition Canvas
 
----
-
-## Session Overview
+## Module Overview
 
 | Block | Topic | Time |
 |---|---|---|
@@ -14,17 +12,15 @@
 | 2.3 | Value Proposition Design | 20 min |
 | 📋 | Blueprint Checkpoint 2: Customer Persona + Value Proposition Canvas | 25 min + 5 min debrief |
 
----
-
 ## Workspace Warm-Up
 
 Before starting this session, open your AI Cofounder Workspace and paste in your completed
-Strategic Positioning Statement from Session 1. Then send this message:
+Strategic Positioning Statement from Module 1. Then send this message:
 
-🤖 **Try this in your Workspace:**
+**Reference Prompt:**
 ```
 I have just shared my Strategic Positioning Statement with you. Today we are going to
-focus on understanding my customer deeply — who they are, what they struggle with, and
+focus on understanding my customer deeply, who they are, what they struggle with, and
 what a compelling solution looks like from their perspective. Before we start, what is
 the most important thing you would want to know about my target customer that is not yet
 captured in the positioning statement?
@@ -80,7 +76,7 @@ you ask sharper questions.
 - **Interview guide development**: What questions would surface genuine customer insights
   rather than confirming your existing assumptions?
 
-🤖 **Try this in your Workspace:**
+**Reference Prompt:**
 ```
 Based on my target customer segment — [paste your segment description from Session 1] —
 do the following:
@@ -102,7 +98,7 @@ This is not a replacement for talking to real people. But it is an excellent pre
 it surfaces assumption gaps, reveals questions you hadn't thought to ask, and helps you
 develop interview instincts before you are in the room with a real customer.
 
-🤖 **Try this in your Workspace:**
+**Reference Prompt:**
 ```
 I want you to role-play as my target customer. Here is the persona:
 
@@ -160,7 +156,7 @@ forces you to move beyond demographics and into lived experience.
 - **Pains**: frustrations, obstacles, risks customers want to avoid.
 - **Gains**: outcomes, benefits, and desires customers want to achieve.
 
-🤖 **Try this in your Workspace:**
+**Reference Prompt:**
 ```
 Build an Empathy Map for my primary customer persona. Use the following format:
 - Says: [3 verbatim-style quotes this person might say about the problem]
@@ -190,7 +186,7 @@ sharp, human-centered **problem statement** — sometimes called a Point-of-View
 This is different from a product requirements statement. It describes the customer's *need*,
 not your *solution* — preserving creative space for ideation.
 
-🤖 **Try this in your Workspace:**
+**Reference Prompt:**
 ```
 Based on the Empathy Map we built, write three Point-of-View (POV) problem statements
 using this format: "[Customer] needs a way to [need] because [insight]."
@@ -227,7 +223,7 @@ transformations to an existing product, service, or process:
 | **E** | Eliminate | What could we remove to make this simpler or more focused? |
 | **R** | Reverse / Rearrange | What if we flipped the model — the customer becomes the provider? |
 
-🤖 **Try this in your Workspace:**
+**Reference Prompt:**
 ```
 Apply the SCAMPER technique to my current solution concept: [brief description of your
 idea]. For each of the seven operations, generate one concrete and plausible idea.
@@ -241,7 +237,7 @@ A mind map starts from your core problem or solution concept and radiates outwar
 associated ideas, connections, and sub-problems. AI can accelerate this by rapidly expanding
 branches you would not have naturally explored.
 
-🤖 **Try this in your Workspace:**
+**Reference Prompt:**
 ```
 Create a mind map outline for my company concept: [your concept]. Start from the central
 idea and expand into at least 4 main branches (e.g., customer segments, solution
@@ -254,7 +250,7 @@ indented text to represent the hierarchy.
 One of the most reliable sources of breakthrough startup ideas is the *unexpected analogy* —
 applying a successful model from one industry to an adjacent problem space.
 
-🤖 **Try this in your Workspace:**
+**Reference Prompt:**
 ```
 I am building [your concept]. Identify three successful companies in completely different
 industries that have solved analogous problems — where the core mechanism of their
@@ -289,7 +285,7 @@ Creators produce the most desired Gains. This is the goal of value proposition d
 
 ### Building Your Value Proposition Canvas with AI
 
-🤖 **Try this in your Workspace:**
+**Reference Prompt:**
 ```
 Build a Value Proposition Canvas for my company. Use the following structure:
 
@@ -317,7 +313,7 @@ A compelling value proposition should pass three tests:
 3. **Believability test**: Is there a reason to believe the claim — a mechanism, a proof point,
    or a distinctive capability?
 
-🤖 **Try this in your Workspace:**
+**Reference Prompt:**
 ```
 Evaluate my current value proposition against these three tests:
 [paste your UVP from Session 1]
