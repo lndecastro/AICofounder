@@ -3,4 +3,4 @@
 
 **You can view the live book here:**
 
-👉 [**View the Published Book**](https://lndecastro.github.io/Entrepreneuring_AI_Based_Startups/)
+👉 [**View the Published Book**](https://lndecastro.github.io/AICofounder/)
