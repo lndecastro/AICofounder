@@ -152,7 +152,7 @@ Be concise and organize the instructions by categories.
 
 Once your workspace instructions are set, send this first message:
 
-**Try this in your Workspace:**
+**Reference Prompt:**
 ```
 In one paragraph, reflect back to me what you understand about the company I am building
 and what kind of cofounder you will be in this process. Then ask me the single most
@@ -346,7 +346,7 @@ for whom. Try to describe it without explicitly saying it.
 - LinkedIn: *"Connect the world's professionals to make them more productive and successful."*
 - Patagonia: *"We're in business to save our home planet."*
 
-**Try this in your Workspace:**
+**Reference Prompt:**
 ```
 Based on my company concept, draft three alternative mission statements. Each should be
 one sentence, specific about the problem and the customer, and free of jargon. Then
@@ -374,7 +374,7 @@ comprehensive institution driving positive change and shaping the future of high
 prioritize transparency, human oversight, data privacy, or equitable access. These are not
 just cultural statements; they are product and process commitments.
 
-**Try this in your Workspace:**
+**Reference Prompt:**
 ```
 Suggest five core values for my company, based on the mission and vision we have
 developed. For each value, write one sentence explaining what it means in practice for
@@ -396,7 +396,7 @@ tensions with each other.
 2. *What* the problem is (specific pain, friction, or unmet need)
 3. *Why it matters* (consequence of the problem going unsolved)
 
-**Try this in your Workspace:**
+**Reference Prompt:**
 ```
 Here is my current problem description: [your draft]. Evaluate it against these criteria:
 (1) Is the customer segment specific enough? (2) Is the problem distinct from the
@@ -438,7 +438,7 @@ doing nothing?"*
 - Canva: *"Empowering the world to design"* - radically simple design tools for non-designers.
 - Stripe: *"Payments infrastructure for the internet"* - developer-first, globally scalable.
 
-**Try this in your Workspace:**
+**Reference Prompt:**
 ```
 Draft three versions of a Unique Value Proposition for my company using this format:
 "For [customer], [company] is the [category] that [key benefit] because [reason to
@@ -468,7 +468,7 @@ Then recommend which best fits our strategic direction and why.
 - *Threats*: Rapid AI commoditization eroding differentiation, regulatory uncertainty, larger
   incumbents adopting AI faster.
 
-**Try this in your Workspace:**
+**Reference Prompt:**
 ```
 Conduct a SWOT analysis for my company based on everything we have developed so far.
 Be honest and specific — I need real weaknesses and real threats, not generic placeholders.
