@@ -28,11 +28,9 @@ captured in the positioning statement?
 
 Use the AI's question to sharpen your thinking before diving into the session content.
 
----
-
 ## 2.1 Customer Development with AI
 
-Customer development is the practice of getting out of the building — leaving your assumptions
+Customer development is the practice of getting out of the building, leaving your assumptions
 behind and learning directly from potential customers what their real problems are, how they
 currently solve them, and what a genuinely valuable solution would look like. It is the
 antidote to building something nobody wants.
@@ -41,28 +39,44 @@ Developed by Steve Blank and popularized through the Lean Startup movement, cust
 development is built on a simple but powerful premise: **your business plan is a set of
 hypotheses, and customers are your testing ground.**
 
-AI does not replace real customer conversations. But it dramatically accelerates and deepens
-the *preparation* for those conversations — and it can help you simulate, analyze, and
+> **Note:** AI does not replace real customer conversations. But it dramatically accelerates and deepens
+the *preparation* for those conversations, and it can help you simulate, analyze, and
 synthesize what you learn from them.
 
 ### 2.1.1 The Customer Discovery Process
 
-Customer development follows four stages:
+In a **product development model**, customers are only sought after a product has been fully developed and launched, while the **customer development model** seeks them out from the very beginning to validate assumptions.
+
+<!-- <img src="Data/ProductDevelopmentModel1.png" width="85%"> -->
+![Product Development Model](./Data/ProductDevelopmentModel1.png)
+
+**Your Customers Are Your Co-Founders:** Build what customers actually want, not what you think they want.
+- **The Problem**: Many startups fail due to lack of market need
+- **The Solution**: Systematic customer discovery, validation, and creation
+- **AI Advantage**: Simulate customer interactions before talking to real people
+
+> **Quote**: *"Get out of the building!"* - Steve Blank
+
+**Customer development** follows four stages:
 
 1. **Customer Discovery** — Identifying who your customer is and what problem they have.
 2. **Customer Validation** — Testing whether your solution hypothesis resonates with real
    customers and they would pay for it.
 3. **Customer Creation** — Building demand and growing a customer base.
 4. **Company Building** — Transitioning from a startup to a scalable organization.
+![Customer Development Model](./Data/CustomerDevelopmentModel.png)
 
-In this program, we focus on **Customer Discovery** — the stage most relevant to early
+> **Key Insight**: Each phase has specific hypotheses to test and metrics to track. <p>
+> **AI Enhancement**: Use AI to accelerate hypothesis generation, interview preparation, and pattern analysis.
+
+In this program, we focus on **Customer Discovery**, the most relevant stage to early
 planning and most amenable to AI assistance.
 
 ### 2.1.2 AI-Powered Customer Research
 
 Before you speak to a single real customer, AI can help you build a well-grounded starting
 hypothesis about who your customer is and what they struggle with. This is not a substitute
-for real interviews — but it dramatically improves the quality of those interviews by helping
+for real interviews, but it dramatically improves the quality of those interviews by helping
 you ask sharper questions.
 
 **Research activities AI can accelerate:**
@@ -78,7 +92,7 @@ you ask sharper questions.
 
 **Reference Prompt:**
 ```
-Based on my target customer segment — [paste your segment description from Session 1] —
+Based on my target customer segment - [paste your segment description from Module 1] -
 do the following:
 1. Identify three distinct sub-segments within this group, ranked by likelihood of being
    early adopters of my solution.
@@ -91,7 +105,7 @@ do the following:
 ### 2.1.3 Simulating Customer Interviews with AI
 
 One of the most powerful applications of AI in early-stage entrepreneurship is **customer
-persona simulation** — using AI to role-play as a specific customer type so you can stress-test
+persona simulation**, that is, using AI to role-play as a specific customer type so you can stress-test
 your problem hypothesis before investing time in real interviews.
 
 This is not a replacement for talking to real people. But it is an excellent preparation tool:
@@ -120,12 +134,10 @@ assumptions? What surprised you? What questions should I ask differently with a 
 customer?
 ```
 
----
-
 ## 2.2 Design Thinking with AI
 
 Design thinking is a **human-centered methodology** for solving problems. It complements
-customer development by adding structured creativity — moving from understanding a customer's
+customer development by adding structured creativity, moving from understanding a customer's
 world to generating and testing solutions that genuinely address it. The five stages of design
 thinking provide a rigorous framework for this process.
 
@@ -133,12 +145,12 @@ thinking provide a rigorous framework for this process.
 
 **Empathize → Define → Ideate → Prototype → Test**
 
-In this session, we focus on the first three stages — the ones most relevant to early-stage
+In this module, we focus on the first three stages, the ones most relevant to early-stage
 planning and most enhanced by AI.
 
----
+![Design Thinking Principles](./Data/DesignThinking.png)
 
-### Stage 1: Empathize — The Empathy Map
+### Stage 1: Empathize - The Empathy Map
 
 An **Empathy Map** organizes what you know (or hypothesize) about your customer into four
 dimensions: what they *Say*, what they *Think*, what they *Do*, and what they *Feel*. It
@@ -150,6 +162,13 @@ forces you to move beyond demographics and into lived experience.
 | **Thinks** | What do they privately believe or worry about? | "If my competitor gets more online reviews, I'll lose business" |
 | **Does** | What actions do they currently take? | Posts sporadically on Facebook, relies on word of mouth |
 | **Feels** | What emotions drive their behavior? | Overwhelmed, worried about irrelevance, proud of their food |
+
+![Empathy Maps](./Data/EmpathyMapv2.png)
+
+**When to Use**:  
+- Early product/service development.  
+- Designing new features.  
+- Evaluating existing products.
 
 **Derived from the Empathy Map:**
 
@@ -166,12 +185,10 @@ Build an Empathy Map for my primary customer persona. Use the following format:
 Then list their top 3 Pains and top 3 Gains.
 ```
 
----
+### Stage 2: Define - The Problem Statement
 
-### Stage 2: Define — The Problem Statement
-
-After empathizing, design thinking requires you to crystallize what you have learned into a
-sharp, human-centered **problem statement** — sometimes called a Point-of-View (POV) statement.
+After empathizing, design thinking requires you to consolidate what you have learned into a
+sharp, human-centered **problem statement**, sometimes called a Point-of-View (POV) statement.
 
 **The POV formula:**
 
@@ -184,7 +201,7 @@ sharp, human-centered **problem statement** — sometimes called a Point-of-View
 > that happens online.
 
 This is different from a product requirements statement. It describes the customer's *need*,
-not your *solution* — preserving creative space for ideation.
+not your *solution*, preserving creative space for ideation.
 
 **Reference Prompt:**
 ```
@@ -194,13 +211,11 @@ Each one should capture a different angle on the problem. Then recommend which P
 statement best sets up a compelling solution space, and explain why.
 ```
 
----
-
-### Stage 3: Ideate — Generating Solutions
+### Stage 3: Ideate - Generating Solutions
 
 Ideation is the generative stage of design thinking. The goal is to produce a wide range of
 possible solutions *before* evaluating any of them. Premature evaluation kills creative
-potential — the best ideas often emerge from the fifth or sixth option, not the first.
+potential, because the best ideas often emerge from the fifth or sixth option, not the first.
 
 AI is exceptionally well-suited to ideation support: it can generate variations rapidly,
 challenge self-imposed constraints, and introduce analogies from other industries that human
@@ -223,6 +238,8 @@ transformations to an existing product, service, or process:
 | **E** | Eliminate | What could we remove to make this simpler or more focused? |
 | **R** | Reverse / Rearrange | What if we flipped the model — the customer becomes the provider? |
 
+![SCAMPER](./Data/SCAMPERTechnique.png)
+
 **Reference Prompt:**
 ```
 Apply the SCAMPER technique to my current solution concept: [brief description of your
@@ -237,6 +254,16 @@ A mind map starts from your core problem or solution concept and radiates outwar
 associated ideas, connections, and sub-problems. AI can accelerate this by rapidly expanding
 branches you would not have naturally explored.
 
+**Mind Map Examples for AI-Based Startups**
+
+*Mind Map 1: AI Personal Health Companion*
+
+![AI Personal Health Companion Mind Map](./Data/MindMap_AI_Health_Companion.png)
+
+*Mind Map 2: AI-Powered Language Tutor for Immigrants*
+
+![AI-Powered Language Tutor Mind Map](./Data/MindMap_AI_Language_Tutor.png)
+
 **Reference Prompt:**
 ```
 Create a mind map outline for my company concept: [your concept]. Start from the central
@@ -247,24 +274,22 @@ indented text to represent the hierarchy.
 
 #### Cross-Industry Analogy
 
-One of the most reliable sources of breakthrough startup ideas is the *unexpected analogy* —
+One of the most reliable sources of breakthrough startup ideas is the *unexpected analogy*, i.e.,
 applying a successful model from one industry to an adjacent problem space.
 
 **Reference Prompt:**
 ```
 I am building [your concept]. Identify three successful companies in completely different
-industries that have solved analogous problems — where the core mechanism of their
+industries that have solved analogous problems, where the core mechanism of their
 solution maps onto my problem in an interesting way. For each, describe the analogy and
 suggest one specific idea it might inspire for my company.
 ```
-
----
 
 ## 2.3 Value Proposition Design
 
 The **Value Proposition Canvas (VPC)**, developed by Alexander Osterwalder, is the bridge
 between your understanding of the customer (left side) and your solution design (right side).
-It ensures your solution is built around what customers actually value — not what you assume
+It ensures your solution is built around what customers actually value, not what you assume
 they value.
 
 The canvas has two sides:
@@ -283,6 +308,8 @@ The canvas has two sides:
 **Fit** occurs when your Pain Relievers address the most significant Pains, and your Gain
 Creators produce the most desired Gains. This is the goal of value proposition design.
 
+![Value Proposition Canvas](./Data/ValuePropositionCanvas.png)
+
 ### Building Your Value Proposition Canvas with AI
 
 **Reference Prompt:**
@@ -300,7 +327,7 @@ VALUE MAP:
 - Gain Creators (matched to specific gains above): [list 4–5]
 
 After completing the canvas, identify where the fit is strongest and where there are
-gaps — pains or gains we are not yet addressing. Suggest one product or feature idea
+gaps, pains or gains we are not yet addressing. Suggest one product or feature idea
 to close the most important gap.
 ```
 
@@ -319,8 +346,6 @@ Evaluate my current value proposition against these three tests:
 [paste your UVP from Session 1]
 For any test it fails, suggest a specific revision to strengthen it.
 ```
-
----
 
 ## 📋 Blueprint Checkpoint 2: Customer Persona + Value Proposition Canvas
 
@@ -349,19 +374,17 @@ Workspace before Session 3.
 
 **Instructions:**
 
-1. Run the Customer Simulator activity (section 2.1.3) with your AI cofounder. Conduct at
+1. Run the Customer Simulator activity (Section 2.1.3) with your AI cofounder. Conduct at
    least 7 exchanges before breaking character and debriefing.
 2. Build your Empathy Map and POV statement using the workspace prompts in section 2.2.
 3. Apply at least two of the three ideation techniques (SCAMPER, Mind Mapping, or
    Cross-Industry Analogy) to expand your solution concept.
-4. Complete your Value Proposition Canvas using section 2.3.
+4. Complete your Value Proposition Canvas using Section 2.3.
 5. Share your POV statement and top Pain/Gain pair with the group.
 
 **Time:** 50 minutes
 
 **Expected output:** A completed Customer Persona + Value Proposition Canvas (Blueprint Piece 2).
-
----
 
 ## Further Reading
 
