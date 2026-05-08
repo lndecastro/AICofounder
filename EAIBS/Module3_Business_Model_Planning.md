@@ -19,7 +19,7 @@ Before starting this module, open your AI Cofounder Workspace and paste in your 
 Persona + Value Proposition Canvas from Module 2 (in addition to the Strategic Positioning
 Statement already there). Then send:
 
-**Reference Prompt**
+**Reference Prompt:**
 ```
 I have now shared both my Strategic Positioning Statement and my Customer Persona +
 Value Proposition Canvas with you. Today we are designing the business model, how the
@@ -87,7 +87,7 @@ For non-technical founders, MVP options include:
 | **Prototype MVP** | A clickable mockup or demo to test UX and concept | Built in Figma, Gamma, or even PowerPoint |
 | **AI-Powered Demo MVP** | Use GenAI to simulate a feature before building it | Demo a personalized report by generating it live with AI |
 
-**Reference Prompt**
+**Reference Prompt:**
 ```
 Based on my company concept and the key assumptions in my Strategic Positioning
 Statement, identify my three riskiest assumptions, the ones where being wrong would
@@ -100,9 +100,9 @@ learning would look like (what result would tell me the assumption is correct?).
 
 The **Business Model Canvas (BMC)**, developed by Alexander Osterwalder and Yves Pigneur,
 is the most widely used tool in startup strategy. It maps how a company creates, delivers,
-and captures value in nine interconnected blocks — on a single page.
+and captures value in nine interconnected blocks, on a single page.
 
-The BMC is not a static document. It is a *hypothesis map* — every block is an assumption
+The BMC is not a static document. It is a *hypothesis map*, in which every block is an assumption
 to be tested, validated, and iterated. AI is particularly powerful here because it can help
 you explore multiple model variants rapidly, stress-test assumptions, and identify
 interdependencies you might miss.
@@ -126,29 +126,31 @@ The canvas is organized into three zones:
 - Key Activities (KA)
 - Key Partnerships (KP)
 
----
+Download the BMC: [Business Model Canvas](./Data/business_model_canvas_poster.pdf).
+
+Online services that allow you to create your BMC: 
+- **Strategizer**: https://www.strategyzer.com/library/the-business-model-canvas.
+- **Canvanizer**: https://canvanizer.com/.
 
 ### Block 1: Customer Segments (CS)
 
 **Definition:** The specific groups of people or organizations you create value for.
 
-**Key question:** *Who are we actually building this for — and are they all the same, or are
+**Key question:** *Who are we actually building this for and are they all the same, or are
 there distinct segments with different needs?*
 
 ```{note}
-You developed your primary customer persona in Session 2. Use it here, and consider
+You developed your primary customer persona in Module 2. Use it here, and consider
 whether there are secondary segments worth capturing in the BMC.
 ```
 
-🤖 **Try this in your Workspace:**
+**Reference Prompt:**
 ```
 Based on my customer persona and value proposition, identify whether I have one primary
 customer segment or multiple distinct segments. If multiple, describe each one briefly
 and explain how their needs differ. Recommend how I should prioritize them in the
 early stage.
 ```
-
----
 
 ### Block 2: Value Propositions (VP)
 
@@ -161,8 +163,6 @@ our offer genuinely valuable?*
 Your VP was already developed in Session 2 via the Value Proposition Canvas. Bring it into the
 BMC here and refine it in light of feasibility and viability considerations.
 
----
-
 ### Block 3: Channels (CH)
 
 **Definition:** How you reach and deliver value to your customer segments — including
@@ -174,7 +174,7 @@ awareness, evaluation, purchase, delivery, and after-sales support.
 - **AI-enhanced**: Chatbots for customer service, automated onboarding, personalized
   recommendation engines.
 
-🤖 **Try this in your Workspace:**
+**Reference Prompt:**
 ```
 Suggest the most effective channel mix for reaching my primary customer segment in
 the early stage of the company. For each recommended channel:
@@ -183,12 +183,10 @@ the early stage of the company. For each recommended channel:
 3. Identify one AI tool or workflow that could make this channel more efficient.
 ```
 
----
-
 ### Block 4: Customer Relationships (CR)
 
 **Definition:** The type of relationship you establish and maintain with each customer
-segment — from fully automated to deeply personal.
+segment, from fully automated to deeply personal.
 
 **Relationship types for AI-based companies:**
 
@@ -199,8 +197,6 @@ segment — from fully automated to deeply personal.
 | Community | Customer-to-customer interactions | AI-moderated forums, peer matching |
 | Co-creation | Customers contribute to value creation | AI tools that learn from user behavior |
 | Dedicated personal | High-touch human relationships | AI-assisted account managers |
-
----
 
 ### Block 5: Revenue Streams (R$)
 
@@ -219,7 +215,7 @@ mechanisms and revenue models that sustain the business.
 | Data monetization | Monetize aggregated, anonymized insights | Sell market intelligence reports |
 | Professional services | Consulting, onboarding, custom implementation | $5,000 setup + monthly retainer |
 
-🤖 **Try this in your Workspace:**
+**Reference Prompt:**
 ```
 Recommend three revenue model options for my company, ranked by fit with my customer
 segment and business concept. For each option:
@@ -228,8 +224,6 @@ segment and business concept. For each option:
 3. Identify the main risk or challenge with this model.
 Then recommend which model I should pursue first and why.
 ```
-
----
 
 ### Block 6: Key Resources (KR)
 
@@ -244,8 +238,6 @@ intellectual, human, or financial.
 - **Talent**: AI literacy, domain expertise, sales capability.
 - **Customer relationships**: A loyal early-adopter base that provides feedback and referrals.
 
----
-
 ### Block 7: Key Activities (KA)
 
 **Definition:** The most important actions the company must perform to operate and grow.
@@ -257,15 +249,13 @@ intellectual, human, or financial.
 - Sales, marketing, and community building.
 - Regulatory compliance and AI safety monitoring.
 
-🤖 **Try this in your Workspace:**
+**Reference Prompt:**
 ```
 Identify the five most critical activities my company must excel at to deliver on the
 value proposition and operate the business model. For each activity, identify whether
 AI can automate or augment it, and if so, how. Be specific about which AI tools or
 workflows are most relevant.
 ```
-
----
 
 ### Block 8: Key Partnerships (KP)
 
@@ -278,7 +268,7 @@ workflows are most relevant.
   customer segments.
 - **Data partners**: Organizations that provide or co-develop the data your AI depends on.
 
-🤖 **Try this in your Workspace:**
+**Reference Prompt:**
 ```
 Identify the three most important partnerships my company should pursue in the first
 year. For each partnership:
@@ -286,8 +276,6 @@ year. For each partnership:
 2. Name two or three specific companies or organizations that could fill this role.
 3. Suggest how I would approach initiating this relationship.
 ```
-
----
 
 ### Block 9: Cost Structure (C$)
 
@@ -311,7 +299,7 @@ The two most important early-stage unit economics metrics are:
 
 **The fundamental viability test: LTV > CAC** (ideally by a factor of 3× or more).
 
-🤖 **Try this in your Workspace:**
+**Reference Prompt:**
 ```
 Outline the cost structure for my business model. Identify:
 1. The three largest fixed cost categories in year one.
@@ -322,20 +310,16 @@ Outline the cost structure for my business model. Identify:
 Be explicit about your assumptions.
 ```
 
----
-
 ### Full Canvas Assembly
 
-🤖 **Try this in your Workspace:**
+**Reference Prompt:**
 ```
 Assemble everything we have discussed into a complete Business Model Canvas summary.
 Present it in a 3×3 grid format with the nine blocks. After the canvas, provide a
-"Canvas Consistency Check" — identify any blocks where the assumptions conflict with
+"Canvas Consistency Check", that is, identify any blocks where the assumptions conflict with
 each other, and flag the one assumption in the entire canvas you consider most risky
 and most in need of validation.
 ```
-
----
 
 ## 3.3 Legal Essentials for AI Founders
 
@@ -366,7 +350,7 @@ an **LLC** offers more flexibility with less administrative burden.
 
 ### 3.3.2 Intellectual Property for AI Founders
 
-Intellectual property (IP) protection is especially complex — and important — for AI
+Intellectual property (IP) protection is especially complex and important for AI
 companies. Key considerations:
 
 - **Who owns AI-generated content?** Currently, in the US, purely AI-generated outputs
@@ -376,7 +360,7 @@ companies. Key considerations:
   architecture, training data, and fine-tuning approach) rather than patents, which require
   public disclosure.
 - **Founder IP assignment**: Ensure all founders and early employees sign IP assignment
-  agreements — assigning any company-relevant IP they create to the company.
+  agreements, assigning any company-relevant IP they create to the company.
 - **Open-source dependencies**: If your product is built on open-source AI models, understand
   the license terms (some prohibit commercial use without a license agreement).
 
@@ -392,15 +376,13 @@ companies. Key considerations:
   orders) require disclosure when users are interacting with AI systems. Build this into your
   product design from the start.
 
-🤖 **Try this in your Workspace:**
+**Reference Prompt:**
 ```
 Based on my company concept, identify the top three legal considerations I should
 address before launching. For each one, describe the risk of not addressing it and
 suggest the first concrete step I should take to mitigate it. Keep this practical —
 I am an early-stage founder, not yet funded.
 ```
-
----
 
 ## 3.4 The Funding Landscape
 
@@ -416,6 +398,8 @@ your planning discipline and prepares you for future conversations.
 | **Seed** | MVP development, early customer acquisition, team building | Angel investors, seed-stage VCs, accelerators | $250K – $3M |
 | **Series A** | Proven model, scaling sales, product expansion | Venture capital | $3M – $15M |
 | **Series B+** | Market expansion, team growth, geographic scale | VC, growth equity | $15M+ |
+
+![Funding Stages](Data/StartupFinancingStages.png)
 
 ### Non-Dilutive Funding Options
 
@@ -446,15 +430,13 @@ of importance:
 
 Your AI Company Blueprint, when complete, should address all three of these dimensions.
 
-🤖 **Try this in your Workspace:**
+**Reference Prompt:**
 ```
 Based on my company concept and the business model we have developed, which funding path
 makes most sense for my first 12 months: bootstrapping, angel investment, grants, or a
 combination? Walk me through your reasoning. Then suggest one specific non-dilutive
 funding opportunity I should investigate for my domain and geography.
 ```
-
----
 
 ## 📋 Blueprint Checkpoint 3: Business Model Canvas
 
@@ -488,8 +470,6 @@ At the end of this session, compile the third piece of your AI Company Blueprint
 **Time:** 40 minutes
 
 **Expected output:** A completed Business Model Canvas with consistency check (Blueprint Piece 3).
-
----
 
 ## Further Reading
 
