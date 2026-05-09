@@ -1,35 +1,39 @@
 # Module 1: The AI Cofounder Mindset
 
-**Duration:** 2 hours | **Blueprint Piece:** Strategic Positioning Statement
+**Blueprint Piece:** Strategic Positioning Statement
 
 ## Module Overview
 
-| Block | Topic | Time |
-|---|---|---|
-| 1.1 | The AI Entrepreneurship Revolution | 15 min |
-| 1.2 | The AI-Enhanced Entrepreneur: Ten Competencies Reimagined | 15 min |
-| 1.3 | Setting Up Your AI Cofounder Workspace & Personalized Assistant | 20 min |
-| 1.4 | The GenAI Toolkit for Founders | 20 min |
-| 1.5 | Strategic Positioning with AI | 30 min |
-| 📋 | Blueprint Checkpoint 1: Strategic Positioning Statement | 20 min |
+| Block | Topic 
+|---|---|
+| 1.1 | The AI Entrepreneurship Revolution 
+| 1.2 | The AI-Enhanced Entrepreneur: Ten Competencies Reimagined 
+| 1.3 | Setting Up Your AI Cofounder Workspace & Personalized Assistant 
+| 1.4 | The GenAI Toolkit for Founders 
+| 1.5 | Strategic Positioning with AI 
+| 📋 | Blueprint Checkpoint 1: Strategic Positioning Statement 
 
 ## 1.1 The AI Entrepreneurship Revolution
 
 We are living through the most significant shift in the history of company-building. For
 decades, founding a company required assembling a full team, raising substantial capital, and
-spending months on research before validating a single idea. Today, a single founder with the
-right AI tools can compress that process dramatically, running market research, simulating
+spending months on research before validating a single idea. Today, a single founder with an AI cofounder, that is, the
+right AI tools, can compress that process dramatically, running market research, simulating
 customer conversations, drafting legal structures, and building a pitch deck in the time it
 once took to schedule the first meeting.
 
 This is not hyperbole. Consider a few data points from 2024–2025:
 
 - The majority of Y Combinator's admitted startups now incorporate AI as a core component of
-  their product or process.
+  their product or process. [^1]
 - Solo founders and micro-teams are launching and validating products in days rather than
-  months, using AI for everything from code generation to customer research.
-- Investors increasingly expect founders to demonstrate AI literacy as a baseline
-  entrepreneurial competency, not just as a technical skill, but as a *strategic* one.
+  months, using AI for everything from code generation to customer research. [^2]
+- Investors increasingly treat AI fluency as table stakes, a baseline expectation for founders,
+  not a differentiator. [^3]
+
+[^1]: https://pitchbook.com/news/articles/y-combinator-demo-day-ai-startups-analysis
+[^2]: https://www.nucamp.co/blog/solo-ai-tech-entrepreneur-2025-how-to-launch-a-global-ai-startup-as-a-solo-tech-founder-and-earn-millions-in-2025
+[^3]: https://www.insightpartners.com/ideas/2025-investor-predictions/
 
 ### What Has Actually Changed?
 
