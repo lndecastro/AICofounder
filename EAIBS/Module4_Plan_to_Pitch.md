@@ -58,6 +58,8 @@ The ones they remember are the ones that made them feel something about a proble
 3. **Act 3 — The World as It Could Be**: Introduce your solution as the resolution. Show
    the market opportunity, the business model, the team. Ask for what you need.
 
+![Structure of a Startup Pitch](./Data/Startup_Pitch.png)  
+
 ### The Founder's Story
 
 Many of the most powerful pitches are anchored in the founder's personal connection to the
@@ -95,6 +97,8 @@ The standard format is 10–12 slides, each serving a specific narrative purpose
 | 8 | **The Competition** | The competitive landscape, and your differentiated position in it |
 | 9 | **The Team** | Why *you*, that is, what makes this founding team uniquely suited to win |
 | 10 | **The Ask** | What you need and exactly how you will use it |
+
+![10-Slide Pitch Deck](./Data/Pitch_Deck.png)  
 
 ### Building Each Slide with AI
 
