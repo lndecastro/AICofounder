@@ -74,7 +74,7 @@ Key principles guiding this program:
   Company plans evolve. Treat every AI output as a starting point to critique, refine, and
   improve, not as a finished answer.
 
-- **The best prompt is a well-framed question.**
+- **The best prompt is a well-framed question/ask.**
   Entrepreneurship and prompt engineering share a core skill: asking the right question in the
   right context. This program develops both simultaneously.
 
@@ -85,7 +85,8 @@ to create a **persistent AI Workspace**: a dedicated environment where your AI a
 retains context about your company, your goals, and your decisions across multiple
 conversations.
 
-Think of it this way: a human cofounder remembers your previous conversations, knows your
+**Think of it this way:** <p>
+> A human cofounder has the whole context, he/she remembers your previous conversations, knows your
 company's mission, understands your target customer, and builds on what you discussed last
 week. An AI Workspace does exactly that, it gives your AI cofounder *memory and knowledge*.
 
@@ -110,39 +111,20 @@ Regardless of platform, the setup follows the same logic:
 
 1. **Create a new Workspace** named after your company concept
    (e.g., *"GreenTrace Startup"* or *"MedAssist Ventures"*).
-2. **Write a Workspace System Prompt** — a short paragraph that introduces your company
+2. **Write a Workspace System Prompt**, that is, a short paragraph that introduces your company
    idea, your role, and what you want the AI to help with. You will draft this in Module 1.
 3. **Feed each Blueprint piece** into the Workspace as you complete it, so the AI
    accumulates context progressively across the four sessions.
 4. **Run all program activities inside this Workspace**, not in a generic chat window.
-   This is what makes the AI a genuine cofounder rather than a one-off assistant.
+   Start one specific chat (thread) for each blueprint piece and rename it accordingly.
+   This is what organizes the environment and makes the AI a genuine cofounder rather than a one-off assistant.
 
-```{note}
-**Why this matters:** A generic AI chat has no memory of your company. Your AI Cofounder
+**Why this matters:** 
+> A generic AI chat has no memory of your company and retains no context. Your AI Cofounder
 Workspace does. The difference between a useful AI tool and a genuine strategic partner
-is *context* — and you are going to build that context deliberately, piece by piece.
-```
+is *context*, and you are going to build that context deliberately, piece by piece.
 
 ## 5. The Personalized Assistant: Your AI Cofounder's Identity
-
-While the AI Workspace gives your AI cofounder *memory*, a **Personalized Assistant** gives
-it *identity*, a defined name, role, persona, expertise, and set of capabilities configured
-specifically for your startup. Think of the two as complementary layers of the same
-relationship:
-
-| | AI Workspace (Project) | Personalized Assistant |
-|---|---|---|
-| **What it provides** | Memory: accumulated context about your company | Identity: a defined persona and role |
-| **Who uses it** | You, as the founder doing strategic planning | You + anyone you choose to share it with |
-| **How it behaves** | Evolves as you feed it more context | Consistently "in character" based on its instructions |
-| **Best used for** | Iterative planning, research, document drafting | Q&A, demos, customer simulation, team onboarding |
-| **Platform examples** | Claude Projects, ChatGPT Projects | Custom GPTs, Gemini Gems |
-
-Together, the Workspace and the Personalized Assistant form your **AI Cofounder setup**: 
-a private planning environment where strategy is developed, and a deployable AI
-representative that embodies your startup for any audience.
-
-### 5.1 What a Personalized Assistant Does
 
 A Personalized Assistant is a pre-configured AI chatbot that you design, instruct, and
 deploy for a specific purpose. Unlike a generic AI chat, it:
@@ -152,24 +134,12 @@ deploy for a specific purpose. Unlike a generic AI chat, it:
   tone, and goals
 - Can be loaded with **company knowledge**, your Blueprint pieces, your product
   documentation, your FAQs, as an embedded knowledge base
-- Can be **shared with others**: team members, customers, advisors, or investors
+- Can be **shared with others**, such as team members, customers, advisors, or investors
   exploring your concept
 - Maintains **consistent behavior** every time it is accessed. It does not drift or forget
   its role the way a generic chat might
 
-### 5.2 How the Two Tools Work Together
-
-In this program, you will configure your Personalized Assistant in Module 1 and use it
-progressively throughout the four modules, loading it with each Blueprint piece as you
-complete it, just as you do with the Workspace. By Module 4, your Personalized Assistant
-will be a fully briefed AI representative of your startup, capable of:
-
-- Answering questions about your company's mission, product, and value proposition
-- Simulating investor Q&A for pitch practice
-- Onboarding new team members or collaborators
-- Serving as a demo artifact that showcases how your startup uses AI
-
-### 5.3 Setting Up Your Personalized Assistant
+### Setting Up Your Personalized Assistant
 
 Different platforms use different terminology, but the setup logic is consistent:
 
@@ -192,38 +162,44 @@ elements:
 3. **Knowledge base**: Documents, FAQs, or text that the assistant can draw on when
    answering questions. You will populate this progressively with your Blueprint pieces.
 
-### 5.4 The Personalized Assistant System Prompt Template
-
-Use this template as the starting point for your assistant's system instructions, adapting
-every bracketed field to your startup:
-
-```
-You are [ASSISTANT NAME], the AI cofounder and strategic advisor for [COMPANY NAME].
-
-[COMPANY NAME] is [ONE-SENTENCE DESCRIPTION OF WHAT THE COMPANY DOES AND FOR WHOM].
-
-Your role is to represent this company accurately, thoughtfully, and consistently. You:
-- Know the company's mission, vision, core values, and unique value proposition
-- Understand the target customer deeply, their pains, gains, and jobs-to-be-done
-- Can explain the business model, revenue approach, and competitive positioning
-- Can answer questions from investors, customers, partners, and team members
-
-When you do not know something specific about the company, say so honestly and suggest
-where the person could find out more. Do not invent facts about the company.
-
-Tone: [e.g., "professional but approachable" / "bold and visionary" / "technical and precise"]
-Audience: [e.g., "early-stage investors and potential customers"]
-Language: [e.g., "plain English, avoid jargon unless the user is clearly technical"]
-```
-
-```{note}
-**Tip:** Your Personalized Assistant is only as good as its instructions and knowledge base. Spend time
-refining the system prompt, because it is the most leveraged writing you will do in this program.
+**Why this matters:** <p>
+> Your Personalized Assistant is only as good as its instructions and knowledge base. Spend time
+refining the system prompt, because it is an important writing you will do in this program.
 A well-written assistant set of instructions and knowledge base will improve every conversation anyone has with your
 startup's AI cofounder.
-```
 
-## 6. The Role of Generative AI in This Program
+## 6. AI Workspace vs Personalized Assistant
+
+While the AI Workspace gives your AI cofounder *context and memory*, a **Personalized Assistant** gives
+it *identity and support*, a defined name, role, persona, expertise, and set of capabilities configured
+specifically for your startup. Think of the two as complementary layers of the same
+relationship:
+
+| | AI Workspace (Project) | Personalized Assistant |
+|---|---|---|
+| **What it provides** | Memory: accumulated context about your company | Identity: a defined persona and role |
+| **Who uses it** | You, as the founder doing strategic planning | You + anyone you choose to share it with |
+| **How it behaves** | Evolves as you feed it more context | Consistently "in character" based on its instructions |
+| **Best used for** | Iterative planning, research, document drafting | Q&A, demos, customer simulation, team onboarding |
+| **Platform examples** | Claude Projects, ChatGPT Projects | Custom GPTs, Gemini Gems |
+
+Together, the Workspace and the Personalized Assistant form your **AI Cofounder setup**: 
+a private planning environment where strategy is developed, and a deployable AI
+representative that embodies your startup for any audience.
+
+### How the Two Tools Work Together
+
+In this program, you will configure your Personalized Assistant in Module 1 and use it
+progressively throughout the four modules, loading it with each Blueprint piece as you
+complete it, just as you do with the Workspace. By Module 4, your Personalized Assistant
+will be a fully briefed AI representative of your startup, capable of:
+
+- Answering questions about your company's mission, product, and value proposition
+- Simulating investor Q&A for pitch practice
+- Onboarding new team members or collaborators
+- Serving as a demo artifact that showcases how your startup uses AI
+
+## 7. The Role of Generative AI in This Program
 
 In AI Cofounder, GenAI tools serve as **strategic thinking partners** — not ghostwriters, not
 answer machines. Throughout this program, AI assists with:
@@ -245,8 +221,7 @@ However, AI does not replace:
 In every activity in this program, *you* are the decision-maker. The AI is your research
 partner, devil's advocate, and drafting assistant — but the company is yours.
 
-
-## 7. How to Use This Book
+## 8. How to Use This Book
 
 - Navigate sessions using the left-hand sidebar or the **Next / Previous** buttons at the
   bottom of each page.
@@ -255,12 +230,12 @@ partner, devil's advocate, and drafting assistant — but the company is yours.
   deliverable.
 - Look for **💡 Examples**, **⚙️ Classwork Activities (CW)**, and **📋 Blueprint Checkpoints**
   throughout.
-- Prompts marked with **🤖 Try this in your Workspace** are ready to copy, paste into your
+- Prompts marked with **Reference Prompt** are ready to copy, paste into your
   AI Cofounder Workspace, and adapt to your concept.
 - Use this book alongside the live sessions, Canvas course materials, and AI demonstrations
   offered by the **FGCU AI Academy**.
 
-## 8. Your AI Company Blueprint
+## 9. Your AI Company Blueprint
 
 The **AI Company Blueprint** is the cumulative deliverable of this program: a structured,
 AI-assisted planning artifact you build progressively across all four modules.
@@ -276,7 +251,7 @@ The Blueprint is not a finished business plan, it is a **living document** desig
 refined, tested, and evolved as you move from planning to building. At the end of Module 4,
 you will assemble all four pieces into a single cohesive artifact.
 
-## 9. Program Roadmap at a Glance
+## 10. Program Roadmap at a Glance
 
 | Session | Theme | Core Focus |
 |---|---|---|
