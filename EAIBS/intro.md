@@ -199,9 +199,11 @@ will be a fully briefed AI representative of your startup, capable of:
 - Onboarding new team members or collaborators
 - Serving as a demo artifact that showcases how your startup uses AI
 
+![AI Workspace and PA](./Data/AIWorkspace_PA.png)
+
 ## 7. The Role of Generative AI in This Program
 
-In AI Cofounder, GenAI tools serve as **strategic thinking partners** — not ghostwriters, not
+In AI Cofounder, GenAI tools serve as **strategic thinking partners**, not ghostwriters, not
 answer machines. Throughout this program, AI assists with:
 
 - **Research and analysis**: market sizing, competitor mapping, trend identification.
@@ -219,14 +221,14 @@ However, AI does not replace:
 - **Critical evaluation** — recognizing when an AI output is wrong, shallow, or misleading.
 
 In every activity in this program, *you* are the decision-maker. The AI is your research
-partner, devil's advocate, and drafting assistant — but the company is yours.
+partner, devil's advocate, and drafting assistant, but the company is yours.
 
 ## 8. How to Use This Book
 
 - Navigate sessions using the left-hand sidebar or the **Next / Previous** buttons at the
   bottom of each page.
 - Each session opens with a **framing block** (concepts and frameworks), moves into
-  **AI-assisted activities**, and closes with a **Blueprint Checkpoint** — your session
+  **AI-assisted activities**, and closes with a **Blueprint Checkpoint**, your session
   deliverable.
 - Look for **💡 Examples**, **⚙️ Classwork Activities (CW)**, and **📋 Blueprint Checkpoints**
   throughout.
@@ -293,8 +295,6 @@ Florida Gulf Coast University**.
 
 Content curated with support from large language models such as ChatGPT, Claude, Gemini,
 Perplexity, Gamma.ai, Napkin, and CoPilot, following ethical and pedagogical review.
-
----
 
 ```{note}
 *This Jupyter Book is part of the FGCU AI Academy's Applied Entrepreneurship Track, aligning
