@@ -27,7 +27,7 @@ AI-augmented skills to confidently plan, design, and communicate a new company o
 By the end of this journey, you will:
 
 - Understand how AI is transforming entrepreneurship and what it means to build a company
-  with AI as a strategic partner.
+  with AI as a strategic partner (a cofounder).
 - Use GenAI tools effectively for business research, strategic planning, and decision-making.
 - Apply foundational entrepreneurial frameworks, such as strategic positioning, customer development,
   and business model design, augmented by AI at each stage.
