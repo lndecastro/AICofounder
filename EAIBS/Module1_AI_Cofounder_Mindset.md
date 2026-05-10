@@ -25,11 +25,11 @@ once took to schedule the first meeting.
 This is not hyperbole. Consider a few data points from 2024–2025:
 
 - The majority of Y Combinator's admitted startups now incorporate AI as a core component of
-  their product or process. [^1]
+  their product or process [^1].
 - Solo founders and micro-teams are launching and validating products in days rather than
-  months, using AI for everything from code generation to customer research. [^2]
+  months, using AI for everything from code generation to customer research [^2].
 - Investors increasingly treat AI fluency as table stakes, a baseline expectation for founders,
-  not a differentiator. [^3]
+  not a differentiator [^3].
 
 [^1]: https://pitchbook.com/news/articles/y-combinator-demo-day-ai-startups-analysis
 [^2]: https://www.nucamp.co/blog/solo-ai-tech-entrepreneur-2025-how-to-launch-a-global-ai-startup-as-a-solo-tech-founder-and-earn-millions-in-2025
@@ -38,8 +38,8 @@ This is not hyperbole. Consider a few data points from 2024–2025:
 ### What Has Actually Changed?
 
 **Traditional entrepreneurship** followed a mostly linear, human-driven sequence: idea →
-research → team → funding → build → validate. Each stage was bottlenecked by time, expertise,
-and access to the right people.
+research → team → funding → build → validate. <l>
+Each stage was bottlenecked by time, expertise, and access to the right people.
 
 **AI-enabled entrepreneurship** is iterative, parallel, and amplified. You can research and
 strategize at the same time. You can simulate customer feedback before speaking to a single
@@ -81,22 +81,21 @@ amplifies them.
 
 | # | Traditional Competency | AI-Enhanced Competency |
 |---|---|---|
-| 1 | **Opportunity Seeking and Initiative** — Entrepreneurs actively look for opportunities and take initiative to turn them into viable businesses. | **AI-Augmented Opportunity Seeking** — Founders leverage AI for market scanning, trend analysis, and opportunity detection (e.g., NLP on social media, predictive analytics). They use AI copilots to generate and validate new ideas rapidly. |
-| 2 | **Persistence** — Successful entrepreneurs don't give up easily. They persist through obstacles and remain determined despite challenges. | **AI-Driven Persistence** — Entrepreneurs use AI simulations, iterative prototyping, and rapid scenario testing to persist through failures — treating setbacks as data points to improve strategies. |
-| 3 | **Commitment** — High commitment to the business; going above and beyond to ensure success. | **Commitment with Human-AI Synergy** — Entrepreneurs demonstrate commitment by designing AI-human workflows that maximize long-term productivity and trust, showing up consistently as the strategic lead. |
-| 4 | **Demand for Efficiency and Quality** — Entrepreneurs strive to improve processes, products, and services continuously. | **AI-Optimized Efficiency and Quality** — Founders apply AI tools (automation, generative design, predictive monitoring) to optimize operations and maintain high-quality standards faster than was previously possible. |
-| 5 | **Risk-Taking** — Willingness to take calculated risks and make decisions under uncertainty. | **AI-Assisted Risk-Taking** — Entrepreneurs combine human judgment with AI-powered scenario analysis, risk modeling, and simulation to make smarter decisions under uncertainty. |
-| 6 | **Goal Setting** — Entrepreneurs set clear, challenging, and achievable goals. | **Goal Setting with AI Metrics** — Founders use AI dashboards and predictive KPIs to set and dynamically adjust goals based on real-time data and market signals. |
-| 7 | **Information Seeking** — Constantly seeking out relevant information through research and feedback. | **AI-Enhanced Information Seeking** — Entrepreneurs integrate AI research assistants and LLMs to gather and synthesize information at scale, going further and faster than manual research allows. |
-| 8 | **Systematic Planning and Monitoring** — Developing detailed plans and regularly monitoring progress. | **Planning and Monitoring with AI Agents** — Founders deploy AI agents for agile management, scenario simulation, and adaptive monitoring of business performance. |
-| 9 | **Persuasion and Networking** — Persuading others and building strong networks for growth. | **AI-Powered Persuasion and Networking** — Entrepreneurs use AI to personalize pitches, analyze audience profiles, optimize messaging, and identify high-value partnership opportunities. |
-| 10 | **Independence and Self-Confidence** — Confident, autonomous, and accountable decision-making. | **Augmented Independence and Self-Confidence** — Entrepreneurs maintain autonomy while using AI copilots for decision support — gaining confidence from *mastering* human-AI collaboration, not outsourcing judgment to it. |
+| 1 | **Opportunity Seeking and Initiative**: Entrepreneurs actively look for opportunities and take initiative to turn them into viable businesses. | **AI-Augmented Opportunity Seeking**: Founders leverage AI for market scanning, trend analysis, and opportunity detection (e.g., NLP on social media, predictive analytics). They use AI copilots to generate and validate new ideas rapidly. |
+| 2 | **Persistence**: Successful entrepreneurs don't give up easily. They persist through obstacles and remain determined despite challenges. | **AI-Driven Persistence**: Entrepreneurs use AI simulations, iterative prototyping, and rapid scenario testing to persist through failures, treating setbacks as data points to improve strategies. |
+| 3 | **Commitment**: High commitment to the business; going above and beyond to ensure success. | **Commitment with Human-AI Synergy**: Entrepreneurs demonstrate commitment by designing AI-human workflows that maximize long-term productivity and trust, showing up consistently as the strategic lead. |
+| 4 | **Demand for Efficiency and Quality**: Entrepreneurs strive to improve processes, products, and services continuously. | **AI-Optimized Efficiency and Quality**: Founders apply AI tools (automation, generative design, predictive monitoring) to optimize operations and maintain high-quality standards faster than was previously possible. |
+| 5 | **Risk-Taking**: Willingness to take calculated risks and make decisions under uncertainty. | **AI-Assisted Risk-Taking**: Entrepreneurs combine human judgment with AI-powered scenario analysis, risk modeling, and simulation to make smarter decisions under uncertainty. |
+| 6 | **Goal Setting**: Entrepreneurs set clear, challenging, and achievable goals. | **Goal Setting with AI Metrics**: Founders use AI dashboards and predictive KPIs to set and dynamically adjust goals based on real-time data and market signals. |
+| 7 | **Information Seeking**: Constantly seeking out relevant information through research and feedback. | **AI-Enhanced Information Seeking**: Entrepreneurs integrate AI research assistants and LLMs to gather and synthesize information at scale, going further and faster than manual research allows. |
+| 8 | **Systematic Planning and Monitoring**: Developing detailed plans and regularly monitoring progress. | **Planning and Monitoring with AI Agents**: Founders deploy AI agents for agile management, scenario simulation, and adaptive monitoring of business performance. |
+| 9 | **Persuasion and Networking**: Persuading others and building strong networks for growth. | **AI-Powered Persuasion and Networking**: Entrepreneurs use AI to personalize pitches, analyze audience profiles, optimize messaging, and identify high-value partnership opportunities. |
+| 10 | **Independence and Self-Confidence**: Confident, autonomous, and accountable decision-making. | **Augmented Independence and Self-Confidence**: Entrepreneurs maintain autonomy while using AI copilots for decision support, gaining confidence from *mastering* human-AI collaboration, not outsourcing judgment to it. |
 
-```{note}
-**Reflection:** Which of these ten competencies do you consider your strongest? Where could
-an AI cofounder most amplify your natural tendencies, and where might it compensate for a
+**Reflection:** 
+> Which of these ten competencies do you consider your strongest?
+> Where could an AI cofounder most amplify your natural tendencies, and where might it compensate for a
 genuine gap?
-```
 
 ## 1.3 Setting Up Your AI Cofounder Workspace & Personalized Assistant
 
@@ -111,7 +110,7 @@ form your core AI Cofounder setup:
 
 Both are set up in Module 1, evolved and used progressively throughout the program.
 
-### Part A — Your AI Cofounder Workspace
+### Part A: Your AI Cofounder Workspace
 
 **Step 1 — Choose your platform and create an AI Workspace**
 
@@ -166,7 +165,7 @@ important question you would want answered before we start working on strategy.
 If the response demonstrates understanding of your concept and asks a sharp, relevant
 question, then your Workspace is working. If it sounds generic, refine your prompt or instructions.
 
-### Part B — Your Personalized Assistant
+### Part B: Your Personalized Assistant
 
 Your Personalized Assistant is your startup's AI representative: a named, role-specific
 chatbot configured to know your company and interact consistently on its behalf. While the
@@ -323,11 +322,9 @@ grounded in your specific company reality.
   with: *"What are the weaknesses in this analysis?"* or *"What important factor are you
   not considering?"*
 
-```{note}
-**The golden rule of context engineering:** The more your AI cofounder knows about your
-company, the more valuable its responses become. Every piece of context you add is an
-investment in the quality of every future output.
-```
+**The golden rule of context engineering:**
+> The more your AI cofounder knows about your company, the more valuable its responses become.
+> Every piece of context you add is an investment in the quality of every future output.
 
 ## 1.5 Strategic Positioning with AI
 
