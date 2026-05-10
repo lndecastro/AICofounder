@@ -28,7 +28,7 @@ This is not hyperbole. Consider a few data points from 2024–2025:
   their product or process [^1].
 - Solo founders and micro-teams are launching and validating products in days rather than
   months, using AI for everything from code generation to customer research [^2].
-- Investors increasingly treat AI fluency as table stakes, a baseline expectation for founders,
+- Investors increasingly treat AI fluency as a baseline expectation for founders,
   not a differentiator [^3].
 
 [^1]: https://pitchbook.com/news/articles/y-combinator-demo-day-ai-startups-analysis
@@ -53,6 +53,8 @@ shifts from *access to resources* to *quality of thinking and judgment*.
 | Business planning | Sequential, document-heavy | Iterative, AI-co-authored, rapidly testable |
 | Pitch development | Trial and error with mentors | AI-coached iteration with real-time feedback |
 | Legal & financial basics | Expensive specialist access | AI-explained frameworks + specialist review |
+
+![Traditional vs AI-Enabled Entrepreneurship](./Data/Traditional_AIEnabled.png)
 
 The key insight: **AI doesn't replace founders, but it replaces the delays between good ideas and
 informed decisions.**
@@ -122,6 +124,7 @@ Open your preferred GenAI platform and create a new Project (or equivalent):
 | ChatGPT | Go to chatgpt.com → click **Projects** → **New Project** |
 | Grok | Go to grok.com → click **Projects** → **New Project** |
 | Perplexity | Go to perplexity.com → **Spaces** |
+| Copilot | Go to copilot.microsoft.com → **Projects** |
 
 Name your Workspace something meaningful, for example use your company name or concept
 (e.g., *"EcoTrack Startup"*, *"MindBridge Ventures"*, *"My AI Cofounder"*).
