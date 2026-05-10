@@ -1,16 +1,16 @@
 # Module 2: Customer & Idea Discovery with AI
 
-**Duration:** 2 hours | **Blueprint Piece:** Customer Persona + Value Proposition Canvas
+**Blueprint Piece:** Customer Persona + Value Proposition Canvas
 
 ## Module Overview
 
-| Block | Topic | Time |
-|---|---|---|
-| Workspace warm-up | Feed Blueprint Piece 1 + re-brief AI cofounder | 5 min |
-| 2.1 | Customer Development with AI | 25 min |
-| 2.2 | Design Thinking with AI | 25 min |
-| 2.3 | Value Proposition Design | 20 min |
-| 📋 | Blueprint Checkpoint 2: Customer Persona + Value Proposition Canvas | 25 min + 5 min debrief |
+| Block | Topic
+|---|---|
+| Workspace warm-up | Feed Blueprint Piece 1 + re-brief AI cofounder |
+| 2.1 | Customer Development with AI | 
+| 2.2 | Design Thinking with AI | 
+| 2.3 | Value Proposition Design | 
+| 📋 | Blueprint Checkpoint 2: Customer Persona + Value Proposition Canvas | 
 
 ## Workspace Warm-Up
 
@@ -66,8 +66,10 @@ In a **product development model**, customers are only sought after a product ha
 4. **Company Building** — Transitioning from a startup to a scalable organization.
 ![Customer Development Model](./Data/CustomerDevelopmentModel.png)
 
-> **Key Insight**: Each phase has specific hypotheses to test and metrics to track. <p>
-> **AI Enhancement**: Use AI to accelerate hypothesis generation, interview preparation, and pattern analysis.
+**Key Insight**: 
+> Each phase has specific hypotheses to test and metrics to track. <p>
+**AI Enhancement**:
+> Use AI to accelerate hypothesis generation, interview preparation, and pattern analysis.
 
 In this program, we focus on **Customer Discovery**, the most relevant stage to early
 planning and most amenable to AI assistance.
