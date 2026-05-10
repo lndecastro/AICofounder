@@ -1,17 +1,17 @@
 # Session 4: From Plan to Pitch with AI
 
-**Duration:** 2 hours | **Blueprint Piece:** Elevator Pitch + Pitch Deck Draft
+**Blueprint Piece:** Elevator Pitch + Pitch Deck Draft
 
 ## Session Overview
 
-| Block | Topic | Time |
-|---|---|---|
-| Workspace warm-up | Feed all Blueprint Pieces + final AI cofounder briefing | 5 min |
-| 4.1 | The Art of Entrepreneurial Storytelling | 15 min |
-| 4.2 | Building Your Pitch Deck with AI | 35 min |
-| 4.3 | Your Elevator Pitch | 15 min |
-| 4.4 | Delivery, Q&A, and Objection Handling with AI | 15 min |
-| 📋 | Blueprint Checkpoint 4 + Blueprint Assembly | 15 min |
+| Block | Topic |
+|---|---|
+| Workspace warm-up | Feed all Blueprint Pieces + final AI cofounder briefing | 
+| 4.1 | The Art of Entrepreneurial Storytelling | 
+| 4.2 | Building Your Pitch Deck with AI | 
+| 4.3 | Your Elevator Pitch | 
+| 4.4 | Delivery, Q&A, and Objection Handling with AI | 
+| 📋 | Blueprint Checkpoint 4 + Blueprint Assembly | 
 
 ## Workspace Warm-Up
 
