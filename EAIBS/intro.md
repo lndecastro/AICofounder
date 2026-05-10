@@ -106,6 +106,7 @@ Different GenAI platforms offer equivalent workspace features under different na
 | **ChatGPT** (OpenAI) | Projects | chatgpt.com → Projects |
 | **Perplexity** | Spaces | perplexity.com → Spaces |
 | **Grok** (X.ai) | Projects | x.ai → Projects |
+| **Copilot** (Microsoft) | Projects | copilot.microsoft.com → Projects |
 
 Regardless of platform, the setup follows the same logic:
 
@@ -215,10 +216,10 @@ answer machines. Throughout this program, AI assists with:
 
 However, AI does not replace:
 
-- **Domain judgment** — knowing your industry, your customers, and your context.
-- **Ethical reasoning** — deciding what kind of company to build, and how.
-- **Human relationships** — customer trust, team culture, investor relationships.
-- **Critical evaluation** — recognizing when an AI output is wrong, shallow, or misleading.
+- **Domain judgment**: knowing your industry, your customers, and your context.
+- **Ethical reasoning**: deciding what kind of company to build, and how.
+- **Human relationships**: customer trust, team culture, investor relationships.
+- **Critical evaluation**: recognizing when an AI output is wrong, shallow, or misleading.
 
 In every activity in this program, *you* are the decision-maker. The AI is your research
 partner, devil's advocate, and drafting assistant, but the company is yours.
