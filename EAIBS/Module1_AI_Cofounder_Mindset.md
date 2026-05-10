@@ -250,12 +250,11 @@ Evaluate the responses: Are they accurate? Are they in the right voice? Do they 
 focused on your startup without drifting into generic AI responses? Refine the system
 instructions until all three pass.
 
-```{note}
-**The key distinction:** Your Workspace is where your AI cofounder *thinks with you*.
+**The key distinction:** 
+> Your Workspace is where your AI cofounder *thinks with you*.
 Your Personalized Assistant is where your startup *speaks for itself*. Both are
 essential, and both improve as you feed them more of your company context throughout
 the program.
-```
 
 ## 1.4 The GenAI Toolkit for Founders
 
@@ -402,7 +401,7 @@ tensions with each other.
 
 **Reference Prompt:**
 ```
-Here is my current problem description: [your draft]. Evaluate it against these criteria:
+Define my company problem description and evaluate it against these criteria:
 (1) Is the customer segment specific enough? (2) Is the problem distinct from the
 solution? (3) Does it convey the consequence of the problem going unsolved?
 Then rewrite it to address any gaps.
@@ -418,11 +417,9 @@ most acutely and are most likely to pay for a solution.
 - **Serviceable Addressable Market (SAM)**: The portion you can realistically reach.
 - **Serviceable Obtainable Market (SOM)**: The portion you can realistically capture early.
 
-```{note}
-Customer segments will be developed in depth in Session 2 using the Customer Development
-and Design Thinking frameworks. In this session, identify your *primary* segment clearly
+> Customer segments will be developed in depth in Module 2 using the Customer Development
+and Design Thinking frameworks. In this module, identify your *primary* segment clearly
 enough to ground your positioning work.
-```
 
 **Exercise 2**: Create a prompt to identify the TAM, SAM, and SOM of your solution (product or service).
 
@@ -445,8 +442,8 @@ doing nothing?"*
 **Reference Prompt:**
 ```
 Draft three versions of a Unique Value Proposition for my company using this format:
-"For [customer], [company] is the [category] that [key benefit] because [reason to
-believe]." Make each version target a slightly different angle: (1) focused on speed/
+"For (customer), (company) is the (category) that (key benefit) because (reason to
+believe)." Make each version target a slightly different angle: (1) focused on speed/
 efficiency, (2) focused on quality/outcome, (3) focused on accessibility/ease of use.
 Then recommend which best fits our strategic direction and why.
 ```
@@ -481,7 +478,7 @@ For each weakness and threat, suggest one concrete mitigation strategy.
 
 ## 📋 Blueprint Checkpoint 1: Strategic Positioning Statement
 
-At the end of this session, compile your work into the first piece of your AI Company
+At the end of this module, compile your work into the first piece of your AI Company
 Blueprint. Your **Strategic Positioning Statement** should include:
 
 - [ ] **Mission statement** (one sentence)
@@ -492,13 +489,73 @@ Blueprint. Your **Strategic Positioning Statement** should include:
 - [ ] **Unique Value Proposition** (one sentence using the UVP formula)
 - [ ] **SWOT analysis** (2x2 table with 3–4 points per quadrant)
 
+**Reference Prompt**:
+```
+You are a strategic editor and synthesis specialist. Your task is to compile previously developed content into a single, coherent **Strategic Positioning Statement**.
+
+Use the existing materials in this workspace. Do NOT create new ideas unless something is clearly missing or inconsistent.
+
+Your job is to:
+- Consolidate content
+- Remove redundancy
+- Ensure clarity and consistency
+- Standardize tone and structure
+
+If there are minor inconsistencies, resolve them in the most logical way. If something critical is missing, make a minimal, reasonable addition.
+
+1. **Mission Statement**
+   - One sentence
+   - Clear, specific, no jargon
+
+2. **Vision Statement**
+   - One sentence
+   - Ambitious but grounded
+
+3. **Core Values**
+   - 3–5 values
+   - Each with a one-sentence explanation of how it is applied in practice
+
+4. **Problem Description**
+   - 2–3 sentences
+   - Must clearly include:
+     - Who the customer is
+     - What the problem is
+     - The consequence if the problem is not solved
+
+5. **Primary Customer Segment**
+   - One paragraph
+   - Focus on behaviors, needs, and context
+
+6. **Unique Value Proposition**
+   - One sentence using this exact format:
+     “For [customer], [company] is the [category] that [key benefit] because [reason to believe].”
+
+7. **SWOT Analysis**
+   - Present as a 2x2 table:
+     - Strengths (3–4 points)
+     - Weaknesses (3–4 points)
+     - Opportunities (3–4 points)
+     - Threats (3–4 points)
+
+QUALITY REQUIREMENTS
+- Do not introduce generic or vague language
+- Ensure all sections are internally consistent
+- Keep wording concise and precise
+- Eliminate duplication across sections
+- Maintain a professional, investor-ready tone
+
+OUTPUT FORMAT
+Use clear headings and structured formatting (bullets and tables where appropriate).
+Do not explain your reasoning, only provide the final compiled document. [Choose the type of output you want, e.g. a DOCX, PPTX, HTML file]
+```
+
 **AI Cofounder Setup: confirm both tools are operational:**
 
 - [ ] **AI Cofounder Workspace** created with system prompt written and tested
 - [ ] **Personalized Assistant** created with name, instructions, and initial knowledge loaded;
       three test prompts passed
 
-**Save both documents.** At the start of Session 2, paste your completed Strategic
+**Save both assets.** At the start of Session 2, paste your completed Strategic
 Positioning Statement into *both* your Workspace and your Personalized Assistant's knowledge
 base, so all future planning and all future conversations build on this foundation.
 
@@ -512,8 +569,6 @@ base, so all future planning and all future conversations build on this foundati
    question or refinement request.
 3. Compile the refined outputs into your Blueprint Checkpoint document.
 4. Be prepared to share your Mission Statement and UVP with the group.
-
-**Time:** 30 minutes
 
 **Expected output:** A completed Strategic Positioning Statement (draft quality — you will
 refine this throughout the program as your understanding deepens).
