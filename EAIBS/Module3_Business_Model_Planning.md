@@ -1,17 +1,17 @@
 # Module 3: Business Model & Planning with AI
 
-**Duration:** 2 hours | **Blueprint Piece:** Business Model Canvas
+**Blueprint Piece:** Business Model Canvas
 
 ## Module Overview
 
-| Block | Topic | Time |
-|---|---|---|
-| Workspace warm-up | Feed Blueprint Pieces 1 & 2 + re-brief AI cofounder | 5 min |
-| 3.1 | Lean Startup Essentials | 20 min |
-| 3.2 | Business Model Canvas with AI | 40 min |
-| 3.3 | Legal Essentials for AI Founders | 20 min |
-| 3.4 | The Funding Landscape | 10 min |
-| 📋 | Blueprint Checkpoint 3: Business Model Canvas | 20 min + 5 min debrief |
+| Block | Topic |
+|---|---|
+| Workspace warm-up | Feed Blueprint Pieces 1 & 2 + re-brief AI cofounder | 
+| 3.1 | Lean Startup Essentials | 
+| 3.2 | Business Model Canvas with AI | 
+| 3.3 | Legal Essentials for AI Founders | 
+| 3.4 | The Funding Landscape | 
+| 📋 | Blueprint Checkpoint 3: Business Model Canvas | 
 
 ## Workspace Warm-Up
 
@@ -342,11 +342,9 @@ The most common legal structures for US-based startups, and their key trade-offs
 | **C-Corporation** | Yes | Ideal (VC-ready) | Double taxation (offset by structure) | VC-funded startups |
 | **S-Corporation** | Yes | Limited (US investors only) | Pass-through | Small business, not VC track |
 
-```{note}
-If you plan to raise venture capital, **Delaware C-Corporation** is the standard
+> If you plan to raise venture capital, **Delaware C-Corporation** is the standard
 structure. Most VCs require it. If you are bootstrapping or seeking angel investment,
 an **LLC** offers more flexibility with less administrative burden.
-```
 
 ### 3.3.2 Intellectual Property for AI Founders
 
