@@ -1,4 +1,4 @@
-# Module 1: The AI Cofounder Mindset
+# Module 1: The AI Cofounder Mindset & Strategic Positioning
 
 **Blueprint Piece:** Strategic Positioning Statement
 
