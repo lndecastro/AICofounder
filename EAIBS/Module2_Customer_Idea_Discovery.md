@@ -68,6 +68,7 @@ In a **product development model**, customers are only sought after a product ha
 
 **Key Insight**: 
 > Each phase has specific hypotheses to test and metrics to track. <p>
+
 **AI Enhancement**:
 > Use AI to accelerate hypothesis generation, interview preparation, and pattern analysis.
 
@@ -116,7 +117,7 @@ develop interview instincts before you are in the room with a real customer.
 
 **Reference Prompt:**
 ```
-I want you to role-play as my target customer. Here is the persona:
+I want you to role-play as my target customer. Define the persona, including: 
 
 Name: [give them a name]
 Role/Background: [e.g., "a 38-year-old independent restaurant owner in Southwest Florida
@@ -271,7 +272,7 @@ branches you would not have naturally explored.
 Create a mind map outline for my company concept: [your concept]. Start from the central
 idea and expand into at least 4 main branches (e.g., customer segments, solution
 features, revenue models, partnerships). Under each branch, suggest 3–4 sub-ideas. Use
-indented text to represent the hierarchy.
+indented text to represent the hierarchy. Draw the mind map.
 ```
 
 #### Cross-Industry Analogy
@@ -344,8 +345,7 @@ A compelling value proposition should pass three tests:
 
 **Reference Prompt:**
 ```
-Evaluate my current value proposition against these three tests:
-[paste your UVP from Session 1]
+Evaluate my current value proposition against the relevance, differentiation, and believability tests.
 For any test it fails, suggest a specific revision to strengthen it.
 ```
 
@@ -370,7 +370,113 @@ At the end of this session, compile the second piece of your AI Company Blueprin
 - [ ] **Refined UVP** (updated based on the canvas)
 
 **Update your Workspace** by pasting this completed document into your AI Cofounder
-Workspace before Session 3.
+Workspace before Module 3.
+
+**Reference Prompt**:
+```
+You are a strategic editor and synthesis specialist.
+Your task is to compile previously developed content into a single, coherent **Customer Persona + Value Proposition Canvas**.
+
+Use the existing materials in this workspace. Do NOT create new ideas unless something is clearly missing or inconsistent.
+
+Your job is to:
+- Consolidate content
+- Remove redundancy
+- Ensure clarity and consistency
+- Standardize tone and structure
+- Maintain tight alignment between the customer and the value proposition
+
+If there are minor inconsistencies, resolve them in the most logical way. If something critical is missing, make a minimal, reasonable addition.
+
+SECTION 1 — CUSTOMER PERSONA
+
+1. **Name and Archetype**
+   - Provide a realistic name
+   - One-line description capturing who they are and their context
+
+2. **Demographics and Context**
+   - Role, industry, experience level
+   - Relevant situational context (e.g., constraints, environment, behaviors)
+
+3. **Empathy Map**
+   Present in four categories:
+   - Says (3 realistic, verbatim-style statements)
+   - Thinks (3 underlying beliefs or concerns)
+   - Does (3 observable behaviors)
+   - Feels (3 emotions influencing decisions)
+
+4. **Top 3 Pains**
+   - List and rank by severity (1 = highest)
+   - Be specific and outcome-oriented
+
+5. **Top 3 Gains**
+   - List and rank by importance (1 = highest)
+   - Focus on desired outcomes, not features
+
+6. **Point-of-View (POV) Problem Statement**
+   - One sentence using this format:
+     “[Customer] needs a way to [need] because [insight].”
+
+SECTION 2 — VALUE PROPOSITION CANVAS
+
+Present this section explicitly in two sides.
+A. CUSTOMER PROFILE (RIGHT SIDE)
+
+1. Customer Jobs
+Identify and group into:
+- Functional jobs (tasks they are trying to accomplish)
+- Social jobs (how they want to be perceived)
+- Emotional jobs (how they want to feel or avoid feeling)
+
+2. Pains
+- What frustrates, blocks, or creates risk for the customer
+- Include obstacles, inefficiencies, uncertainty, and negative outcomes
+- Rank by severity
+
+3. Gains
+- What outcomes or benefits the customer wants
+- Include required, expected, desired, and aspirational gains
+- Rank by importance
+
+B. VALUE MAP (LEFT SIDE)
+
+4. Products & Services
+- List the core elements of the solution
+
+5. Pain Relievers
+- Describe how the solution reduces or eliminates specific pains
+- Each pain reliever must map to a clearly identified customer pain
+
+6. Gain Creators
+- Describe how the solution enables or enhances specific gains
+- Each gain creator must map to a clearly identified customer gain
+
+C. FIT ASSESSMENT
+
+7. Problem–Solution Fit Analysis
+- Where is the fit strongest? (clear alignment)
+- Where are the gaps? (unaddressed pains or weak gains)
+- What assumptions still require validation?
+
+8. Refined Unique Value Proposition
+Use this exact format:
+“For [customer], [company] is the [category] that [key benefit] because [reason to believe].”
+
+QUALITY REQUIREMENTS
+
+- Do not introduce generic or vague language
+- Ensure strong alignment between Persona and Value Proposition
+- Avoid surface-level insights; focus on real behaviors and decision drivers
+- Eliminate duplication across sections
+- Ensure all pains and gains are meaningfully addressed
+- Maintain a professional, investor-ready tone
+
+OUTPUT FORMAT
+
+Use clear headings and structured formatting (bullets where appropriate).
+Do not explain your reasoning, only provide the final compiled document.
+[Choose the type of output you want, e.g. a DOCX, PPTX, HTML file]
+```
 
 ### ⚙️ CW 2.1 — Customer Discovery Deep Dive
 
