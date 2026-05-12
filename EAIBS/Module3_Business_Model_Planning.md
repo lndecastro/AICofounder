@@ -152,7 +152,7 @@ and explain how their needs differ. Recommend how I should prioritize them in th
 early stage.
 ```
 
-### Block 2: Value Propositions (VP)
+### Block 2: Value Proposition (VP)
 
 **Definition:** The bundle of products and services that creates value for a specific customer
 segment — addressing pains, generating gains, or enabling customer jobs.
