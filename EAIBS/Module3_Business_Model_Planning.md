@@ -452,6 +452,173 @@ At the end of this session, compile the third piece of your AI Company Blueprint
 
 **Update your Workspace** by pasting this completed BMC before Session 4.
 
+**Refernce Prompt**:
+```
+You are a strategic editor and business model synthesis specialist. 
+Your task is to compile previously developed content into a single, coherent
+**Business Model Canvas (BMC) + Lean Startup Validation Framework**.
+Use the existing materials in this workspace. Do NOT create new ideas unless
+something is clearly missing or logically inconsistent with the other blocks.
+
+Your job is to:
+- Consolidate content across all 9 BMC blocks
+- Remove redundancy and surface-level entries
+- Ensure logical consistency and interdependency across blocks
+- Standardize tone and structure throughout
+- Integrate Lean Startup thinking into the model (not as a separate section,
+  but embedded in how each block is framed and validated)
+- Reflect the role of AI as a co-founder — where applicable, note how AI
+  tools, capabilities, or processes enable or enhance the business model
+
+If there are minor inconsistencies between blocks, resolve them in the most
+logical way. If a block is critically underdeveloped, make a minimal,
+reasonable addition and flag it clearly.
+
+SECTION 1 — BUSINESS MODEL CANVAS
+
+Present each block using the structure below. For each block, provide:
+- A concise, outcome-oriented description (2–4 bullets)
+- A "Lean Lens" note indicating what assumption this block contains and
+  how it would be tested (one sentence per block)
+
+1. **Customer Segments**
+   - Who are the specific customers this business is designed to serve?
+   - Prioritize and distinguish between primary and secondary segments
+   - Indicate whether the model is B2B, B2C, B2B2C, platform, or other
+   - Lean Lens: What is the riskiest assumption about who your customer is,
+     and what is the minimum experiment to validate it?
+
+2. **Value Propositions**
+   - What value does the business deliver to each customer segment?
+   - Map each proposition to a specific customer pain or gain from the
+     Customer Persona developed in Module 2
+   - Distinguish between functional, emotional, and social value
+   - Lean Lens: Which value proposition is least validated, and what
+     would a Minimum Viable Test look like?
+
+3. **Channels**
+   - How does the business reach its customer segments?
+   - Cover awareness, evaluation, purchase, delivery, and post-sale stages
+   - Note which channels are owned, earned, or paid
+   - Lean Lens: Which channel assumption has the least evidence, and
+     how could it be tested with minimal investment?
+
+4. **Customer Relationships**
+   - What type of relationship does the business establish with each segment?
+   - (e.g., self-service, community, dedicated support, co-creation,
+     automated personalization)
+   - Note how AI enables or scales these relationships
+   - Lean Lens: What is assumed about customer retention or engagement
+     that still requires validation?
+
+5. **Revenue Streams**
+   - How does the business generate revenue from each customer segment?
+   - Specify pricing model (subscription, usage, licensing, transaction, etc.)
+   - Identify primary vs. secondary revenue streams
+   - Lean Lens: What is assumed about willingness to pay, and what
+     experiment could test it quickly?
+
+6. **Key Resources**
+   - What assets are essential for this business model to function?
+   - Categorize as: physical, intellectual, human, or financial
+   - Explicitly identify AI or data assets that function as strategic
+     resources (treat these as co-founder-level inputs where relevant)
+   - Lean Lens: Which key resource represents the highest dependency risk?
+
+7. **Key Activities**
+   - What critical activities must the business perform to deliver its value?
+   - Categorize as: production, problem-solving, or platform/network
+   - Identify where AI augments or automates core activities
+   - Lean Lens: Which activity is most operationally untested at this stage?
+
+8. **Key Partners**
+   - Who are the critical partners or suppliers the business relies on?
+   - Distinguish between: optimization partnerships, risk-reduction
+     alliances, and resource/capability acquisition
+   - Include AI platforms, data providers, or technology partners
+     where they are structurally essential
+   - Lean Lens: Which partnership is assumed but not yet confirmed?
+
+9. **Cost Structure**
+   - What are the most significant costs inherent in this business model?
+   - Categorize as fixed vs. variable
+   - Identify value-driven vs. cost-driven priorities
+   - Note where AI reduces structural costs or shifts the cost model
+   - Lean Lens: What cost assumption is most sensitive to scale?
+
+SECTION 2 — LEAN STARTUP VALIDATION FRAMEWORK
+
+Present this section in three parts.
+
+A. BUILD-MEASURE-LEARN LOOP SUMMARY
+
+10. **Current Stage Assessment**
+    - Where is this business in the BML cycle?
+      (Idea → Build → Measure → Learn → Iterate or Pivot)
+    - What has already been learned from customer discovery (Module 2)?
+    - What remains most uncertain heading into the build phase?
+
+11. **Minimum Viable Product (MVP) Definition**
+    - What is the simplest version of the product or service that can
+      generate validated learning?
+    - Specify the MVP type: (e.g., landing page, concierge, prototype,
+      Wizard of Oz, pilot, explainer video)
+    - Define the one primary question the MVP is designed to answer
+    - Identify the 1–2 metrics that will indicate success or failure
+
+B. RISKIEST ASSUMPTION TRACKER
+
+12. **Top 3 Critical Assumptions**
+    List and rank by risk level (1 = highest):
+    - State each assumption clearly
+    - Identify which BMC block it belongs to
+    - Propose a lightweight test or experiment to validate it
+    - Define the threshold for "validated" vs. "invalidated"
+
+C. PIVOT OR PERSEVERE FRAMEWORK
+
+13. **Pivot Triggers**
+    - Under what conditions should the business consider a pivot?
+    - Identify which BMC blocks are most susceptible to pivot-forcing
+      discoveries (e.g., customer segment, value proposition, revenue model)
+    - Name one plausible pivot variant for the highest-risk assumption
+
+SECTION 3 — BUSINESS MODEL COHERENCE ASSESSMENT
+
+14. **Internal Fit Analysis**
+    - Are the 9 blocks logically consistent with one another?
+    - Where are the strongest alignments? (e.g., value proposition
+      to customer segment; key activities to key resources)
+    - Where are the weakest links or potential contradictions?
+
+15. **Strategic Differentiation Statement**
+    Synthesize into one sentence using this exact format:
+    "[Company] creates value for [customer segment] by [key activity or
+    capability] in a way that [competitors or alternatives] cannot easily
+    replicate, because [source of defensibility]."
+
+16. **AI Co-Founder Integration Summary**
+    In 2–3 bullets, describe how AI functions not just as a tool but as a
+    structural element of this business model — identifying where it shapes
+    the value proposition, enables key activities, or creates competitive
+    advantage.
+
+QUALITY REQUIREMENTS
+- Every BMC block must connect logically to at least one other block
+- Value Propositions must trace directly to Customer Segments and to the
+  Persona developed in Module 2
+- Avoid vague entries (e.g., "social media" is not a channel; name the
+  platform, method, and stage)
+- Lean Lens notes must be specific and actionable, not generic
+- AI integration must be substantive — avoid token references ("we'll use AI
+  to improve efficiency")
+- Maintain an investor-ready tone: precise, concrete, and hypothesis-driven
+
+OUTPUT FORMAT
+Use clear section headings and structured formatting (bullets or tables where appropriate).
+Do not explain your reasoning — provide only the final compiled document and save it in a DOCX file.
+```
+
 ### ⚙️ CW 3.1 — Business Model Canvas Build
 
 **Instructions:**
