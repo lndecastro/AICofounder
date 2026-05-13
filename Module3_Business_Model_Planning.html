@@ -1,0 +1,1368 @@
+
+<!DOCTYPE html>
+
+
+<html lang="en" data-content_root="./" >
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Module 3: Business Model &amp; Planning with AI &#8212; Entrepreneuring AI Based Startups</title>
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "";
+  </script>
+  <!--
+    this give us a css class that will be invisible only if js is disabled
+  -->
+  <noscript>
+    <style>
+      .pst-js-only { display: none !important; }
+
+    </style>
+  </noscript>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="_static/styles/theme.css?digest=8878045cc6db502f8baf" rel="stylesheet" />
+<link href="_static/styles/pydata-sphinx-theme.css?digest=8878045cc6db502f8baf" rel="stylesheet" />
+
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=03e43079" />
+    <link rel="stylesheet" type="text/css" href="_static/styles/sphinx-book-theme.css?v=3c74b3bc" />
+    <link rel="stylesheet" type="text/css" href="_static/togglebutton.css?v=9c3e77be" />
+    <link rel="stylesheet" type="text/css" href="_static/copybutton.css?v=76b2166b" />
+    <link rel="stylesheet" type="text/css" href="_static/mystnb.11b39860a7a0cbfd473a3ad8a317855267ff0bd372690045ca344a6b62be495e.css" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinx-thebe.css?v=4fa983c6" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinx-design.min.css?v=95c83b7e" />
+  
+  <!-- So that users can add custom icons -->
+  <script src="_static/scripts/fontawesome.js?digest=8878045cc6db502f8baf"></script>
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="_static/scripts/bootstrap.js?digest=8878045cc6db502f8baf" />
+<link rel="preload" as="script" href="_static/scripts/pydata-sphinx-theme.js?digest=8878045cc6db502f8baf" />
+
+    <script src="_static/documentation_options.js?v=9eb32ce0"></script>
+    <script src="_static/doctools.js?v=9a2dae69"></script>
+    <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="_static/clipboard.min.js?v=a7894cd8"></script>
+    <script src="_static/copybutton.js?v=f281be69"></script>
+    <script src="_static/scripts/sphinx-book-theme.js?v=fab101a9"></script>
+    <script>let toggleHintShow = 'Click to show';</script>
+    <script>let toggleHintHide = 'Click to hide';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="_static/togglebutton.js?v=b8b12719"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script src="_static/design-tabs.js?v=f930bc37"></script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
+    <script async="async" src="_static/sphinx-thebe.js?v=c100c467"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
+    <script>window.MathJax = {"options": {"processHtmlClass": "tex2jax_process|mathjax_process|math|output_area"}}</script>
+    <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'Module3_Business_Model_Planning';</script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Session 4: From Plan to Pitch with AI" href="Module4_Plan_to_Pitch.html" />
+    <link rel="prev" title="Module 2: Customer &amp; Idea Discovery with AI" href="Module2_Customer_Idea_Discovery.html" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="en"/>
+  <meta name="docsearch:version" content="" />
+  </head>
+  
+  
+  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="">
+
+  
+  
+  <div id="pst-skip-link" class="skip-link d-print-none"><a href="#main-content">Skip to main content</a></div>
+  
+  <div id="pst-scroll-pixel-helper"></div>
+  
+  <button type="button" class="btn rounded-pill" id="pst-back-to-top">
+    <i class="fa-solid fa-arrow-up"></i>Back to top</button>
+
+  
+  <dialog id="pst-search-dialog">
+    
+<form class="bd-search d-flex align-items-center"
+      action="search.html"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         placeholder="Search this book..."
+         aria-label="Search this book..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form>
+  </dialog>
+
+  <div class="pst-async-banner-revealer d-none">
+  <aside id="bd-header-version-warning" class="d-none d-print-none" aria-label="Version warning"></aside>
+</div>
+
+  
+    <header class="bd-header navbar navbar-expand-lg bd-navbar d-print-none">
+    </header>
+  
+
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      
+      
+      <dialog id="pst-primary-sidebar-modal"></dialog>
+      <div id="pst-primary-sidebar" class="bd-sidebar-primary bd-sidebar">
+        
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+    
+    
+  </div>
+  
+    <div class="sidebar-primary-items__start sidebar-primary__section">
+        <div class="sidebar-primary-item">
+
+  
+    
+  
+
+<a class="navbar-brand logo" href="intro.html">
+  
+  
+  
+  
+  
+    
+    
+      
+    
+    
+    <img src="_static/dendritic_logo.png" class="logo__image only-light" alt="Entrepreneuring AI Based Startups - Home"/>
+    <img src="_static/dendritic_logo.png" class="logo__image only-dark pst-js-only" alt="Entrepreneuring AI Based Startups - Home"/>
+  
+  
+</a></div>
+        <div class="sidebar-primary-item">
+
+<button class="btn search-button-field search-button__button pst-js-only" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+ <i class="fa-solid fa-magnifying-glass"></i>
+ <span class="search-button__default-text">Search</span>
+ <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+</button></div>
+        <div class="sidebar-primary-item"><nav class="bd-links bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item navbar-nav active">
+        
+        <ul class="nav bd-sidenav bd-sidenav__home-link">
+            <li class="toctree-l1">
+                <a class="reference internal" href="intro.html">
+                    Welcome to AI Cofounder
+                </a>
+            </li>
+        </ul>
+        <ul class="current nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="Module1_AI_Cofounder_Mindset.html">Module 1: The AI Cofounder Mindset</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Module2_Customer_Idea_Discovery.html">Module 2: Customer &amp; Idea Discovery with AI</a></li>
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">Module 3: Business Modelling &amp; Planning with AI</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Module4_Plan_to_Pitch.html">Module 4: From Plan to Pitch with AI</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Appendix_Ethics_Responsible_AI.html">Appendix: Ethics &amp; Responsible AI</a></li>
+</ul>
+
+    </div>
+</nav></div>
+    </div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+      <div class="sidebar-primary-item">
+<div id="ethical-ad-placement"
+      class="flat"
+      data-ea-publisher="readthedocs"
+      data-ea-type="readthedocs-sidebar"
+      data-ea-manual="true">
+</div></div>
+  </div>
+
+
+      </div>
+      
+      <main id="main-content" class="bd-main" role="main">
+        
+        
+
+<div class="sbt-scroll-pixel-helper"></div>
+
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article d-print-none">
+<div class="header-article-items header-article__inner">
+  
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item"><button class="sidebar-toggle primary-toggle btn btn-sm" title="Toggle primary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <span class="fa-solid fa-bars"></span>
+</button></div>
+      
+    </div>
+  
+  
+    <div class="header-article-items__end">
+      
+        <div class="header-article-item">
+
+<div class="article-header-buttons">
+
+
+
+
+
+<div class="dropdown dropdown-source-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Source repositories">
+    <i class="fab fa-github"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="https://github.com/lndecastro/AICofounder" target="_blank"
+   class="btn btn-sm btn-source-repository-button dropdown-item"
+   title="Source repository"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fab fa-github"></i>
+  </span>
+<span class="btn__text-container">Repository</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li><a href="https://github.com/lndecastro/AICofounder/edit/main/docs/Module3_Business_Model_Planning.md" target="_blank"
+   class="btn btn-sm btn-source-edit-button dropdown-item"
+   title="Suggest edit"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-pencil-alt"></i>
+  </span>
+<span class="btn__text-container">Suggest edit</span>
+</a>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+
+
+<div class="dropdown dropdown-download-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Download this page">
+    <i class="fas fa-download"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="_sources/Module3_Business_Model_Planning.md" target="_blank"
+   class="btn btn-sm btn-download-source-button dropdown-item"
+   title="Download source file"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="btn__text-container">.md</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li>
+<button onclick="window.print()"
+  class="btn btn-sm btn-download-pdf-button dropdown-item"
+  title="Print to PDF"
+  data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="btn__text-container">.pdf</span>
+</button>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+<button onclick="toggleFullScreen()"
+  class="btn btn-sm btn-fullscreen-button pst-navbar-icon"
+  title="Fullscreen mode"
+  data-bs-placement="bottom" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+
+
+<button class="btn btn-sm nav-link pst-navbar-icon theme-switch-button pst-js-only" aria-label="Color mode" data-bs-title="Color mode"  data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <i class="theme-switch fa-solid fa-sun                fa-lg" data-mode="light" title="Light"></i>
+  <i class="theme-switch fa-solid fa-moon               fa-lg" data-mode="dark"  title="Dark"></i>
+  <i class="theme-switch fa-solid fa-circle-half-stroke fa-lg" data-mode="auto"  title="System Settings"></i>
+</button>
+
+
+<button class="btn btn-sm pst-navbar-icon search-button search-button__button pst-js-only" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+</button>
+<button class="sidebar-toggle secondary-toggle btn btn-sm pst-navbar-icon" title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</button>
+</div></div>
+      
+    </div>
+  
+</div>
+</div>
+              
+              
+
+<div id="jb-print-docs-body" class="onlyprint">
+    <h1>Module 3: Business Model & Planning with AI</h1>
+    <!-- Table of contents -->
+    <div id="print-main-content">
+        <div id="jb-print-toc">
+            
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#module-overview">Module Overview</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#workspace-warm-up">Workspace Warm-Up</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#lean-startup-essentials">3.1 Lean Startup Essentials</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#the-build-measure-learn-loop">3.1.1 The Build-Measure-Learn Loop</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#validated-learning">3.1.2 Validated Learning</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#mvp-thinking-for-non-technical-founders">3.1.3 MVP Thinking for Non-Technical Founders</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#business-model-canvas-with-ai">3.2 Business Model Canvas with AI</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#the-nine-blocks-of-the-bmc">The Nine Blocks of the BMC</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#block-1-customer-segments-cs">Block 1: Customer Segments (CS)</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#block-2-value-proposition-vp">Block 2: Value Proposition (VP)</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#block-3-channels-ch">Block 3: Channels (CH)</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#block-4-customer-relationships-cr">Block 4: Customer Relationships (CR)</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#block-5-revenue-streams-r">Block 5: Revenue Streams (R$)</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#block-6-key-resources-kr">Block 6: Key Resources (KR)</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#block-7-key-activities-ka">Block 7: Key Activities (KA)</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#block-8-key-partnerships-kp">Block 8: Key Partnerships (KP)</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#block-9-cost-structure-c">Block 9: Cost Structure (C$)</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#full-canvas-assembly">Full Canvas Assembly</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#legal-essentials-for-ai-founders">3.3 Legal Essentials for AI Founders</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#startup-legal-structures">3.3.1 Startup Legal Structures</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#intellectual-property-for-ai-founders">3.3.2 Intellectual Property for AI Founders</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#data-privacy-and-ai-liability">3.3.3 Data Privacy and AI Liability</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#the-funding-landscape">3.4 The Funding Landscape</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#startup-financing-stages">Startup Financing Stages</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#non-dilutive-funding-options">Non-Dilutive Funding Options</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#what-early-stage-investors-look-for">What Early-Stage Investors Look For</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#blueprint-checkpoint-3-business-model-canvas">📋 Blueprint Checkpoint 3: Business Model Canvas</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#cw-3-1-business-model-canvas-build">⚙️ CW 3.1 — Business Model Canvas Build</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#further-reading">Further Reading</a></li>
+</ul>
+            </nav>
+        </div>
+    </div>
+</div>
+
+              
+                
+<div id="searchbox"></div>
+                <article class="bd-article">
+                  
+  <section class="tex2jax_ignore mathjax_ignore" id="module-3-business-model-planning-with-ai">
+<h1>Module 3: Business Model &amp; Planning with AI<a class="headerlink" href="#module-3-business-model-planning-with-ai" title="Link to this heading">#</a></h1>
+<p><strong>Blueprint Piece:</strong> Business Model Canvas</p>
+<section id="module-overview">
+<h2>Module Overview<a class="headerlink" href="#module-overview" title="Link to this heading">#</a></h2>
+<div class="pst-scrollable-table-container"><table class="table">
+<thead>
+<tr class="row-odd"><th class="head"><p>Block</p></th>
+<th class="head"><p>Topic</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Workspace warm-up</p></td>
+<td><p>Feed Blueprint Pieces 1 &amp; 2 + re-brief AI cofounder</p></td>
+</tr>
+<tr class="row-odd"><td><p>3.1</p></td>
+<td><p>Lean Startup Essentials</p></td>
+</tr>
+<tr class="row-even"><td><p>3.2</p></td>
+<td><p>Business Model Canvas with AI</p></td>
+</tr>
+<tr class="row-odd"><td><p>3.3</p></td>
+<td><p>Legal Essentials for AI Founders</p></td>
+</tr>
+<tr class="row-even"><td><p>3.4</p></td>
+<td><p>The Funding Landscape</p></td>
+</tr>
+<tr class="row-odd"><td><p>📋</p></td>
+<td><p>Blueprint Checkpoint 3: Business Model Canvas</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</section>
+<section id="workspace-warm-up">
+<h2>Workspace Warm-Up<a class="headerlink" href="#workspace-warm-up" title="Link to this heading">#</a></h2>
+<p>Before starting this module, open your AI Cofounder Workspace and paste in your Customer
+Persona + Value Proposition Canvas from Module 2 (in addition to the Strategic Positioning
+Statement already there). Then send:</p>
+<p><strong>Reference Prompt:</strong></p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>I have now shared both my Strategic Positioning Statement and my Customer Persona +
+Value Proposition Canvas with you. Today we are designing the business model, how the
+company creates, delivers, and captures value. Given everything you know about my
+company, what do you see as the single most important business model decision I need
+to get right, and why?
+</pre></div>
+</div>
+</section>
+<section id="lean-startup-essentials">
+<h2>3.1 Lean Startup Essentials<a class="headerlink" href="#lean-startup-essentials" title="Link to this heading">#</a></h2>
+<p>The <strong>Lean Startup</strong> methodology, developed by Eric Ries, offers the most widely adopted
+framework for building a new company under conditions of extreme uncertainty. Its core insight
+is deceptively simple: <em>a startup’s business plan is not a plan, it is a collection of
+hypotheses.</em> The job of the early-stage founder is to test those hypotheses as quickly and
+cheaply as possible, before committing significant resources to building the wrong thing.</p>
+<section id="the-build-measure-learn-loop">
+<h3>3.1.1 The Build-Measure-Learn Loop<a class="headerlink" href="#the-build-measure-learn-loop" title="Link to this heading">#</a></h3>
+<p>The engine of the Lean Startup is the <strong>Build-Measure-Learn</strong> feedback loop:</p>
+<ol class="arabic simple">
+<li><p><strong>Build</strong>: Create the minimum artifact needed to test your hypothesis. This could be a
+landing page, a paper prototype, a manual process, or a very limited feature set.</p></li>
+<li><p><strong>Measure</strong>: Collect data on how real (or potential) customers respond to it.</p></li>
+<li><p><strong>Learn</strong>: Decide whether to <strong>persevere</strong> (you were right -&gt; build more) or <strong>pivot</strong>
+(you were wrong -&gt; change your hypothesis).</p></li>
+</ol>
+<p>The goal is to minimize the time through each loop. The faster you learn, the faster you
+can converge on something customers actually want.</p>
+<p><img alt="Build–Measure–Learn Loop" src="_images/BMLLoop.png" /><br />
+<em>Use B–M–L to validate both the <strong>Value hypothesis</strong> (“do users get value?”) and the <strong>Growth hypothesis</strong> (“how do new users find it?”).</em></p>
+</section>
+<section id="validated-learning">
+<h3>3.1.2 Validated Learning<a class="headerlink" href="#validated-learning" title="Link to this heading">#</a></h3>
+<p><strong>Validated learning</strong> is the unit of progress in the Lean Startup, not features shipped,
+not code written, not slides produced. A startup makes progress when it <em>learns something true
+about its customers and market</em>, backed by real-world evidence.</p>
+<p><strong>What counts as validated learning:</strong></p>
+<ul class="simple">
+<li><p>A customer paid for something (even a prototype or a waitlist deposit)</p></li>
+<li><p>A defined metric moved in the predicted direction after a specific change</p></li>
+<li><p>A customer discovery interview revealed a pattern that contradicts your assumptions
+(negative validated learning is still learning)</p></li>
+</ul>
+<p><strong>What does not count:</strong></p>
+<ul class="simple">
+<li><p>Positive responses in a survey (“Yes, I’d probably use that”)</p></li>
+<li><p>Compliments from friends, family, or advisors who are not the target customer</p></li>
+<li><p>AI-generated enthusiasm (your AI cofounder tells you the idea is great)</p></li>
+</ul>
+</section>
+<section id="mvp-thinking-for-non-technical-founders">
+<h3>3.1.3 MVP Thinking for Non-Technical Founders<a class="headerlink" href="#mvp-thinking-for-non-technical-founders" title="Link to this heading">#</a></h3>
+<p>A <strong>Minimum Viable Product (MVP)</strong> is not a stripped-down version of your full product. It
+is the smallest possible artifact that allows you to test your most critical hypothesis with
+real customers and generate validated learning.</p>
+<p><img alt="Minimal Viable Product" src="_images/MVP.png" /></p>
+<p>For non-technical founders, MVP options include:</p>
+<div class="pst-scrollable-table-container"><table class="table">
+<thead>
+<tr class="row-odd"><th class="head"><p>MVP Type</p></th>
+<th class="head"><p>Description</p></th>
+<th class="head"><p>Example</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><strong>Concierge MVP</strong></p></td>
+<td><p>Deliver the service manually before building automation</p></td>
+<td><p>A “smart” scheduling tool that is actually a human scheduler</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>Landing Page MVP</strong></p></td>
+<td><p>A single page describing the product to measure interest</p></td>
+<td><p>Measure signups before building anything</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>Wizard of Oz MVP</strong></p></td>
+<td><p>The customer sees a product; behind the scenes it is manual</p></td>
+<td><p>Zappos shipped shoes manually before building their platform</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>Prototype MVP</strong></p></td>
+<td><p>A clickable mockup or demo to test UX and concept</p></td>
+<td><p>Built in Figma, Gamma, or even PowerPoint</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>AI-Powered Demo MVP</strong></p></td>
+<td><p>Use GenAI to simulate a feature before building it</p></td>
+<td><p>Demo a personalized report by generating it live with AI</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><strong>Reference Prompt:</strong></p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>Based on my company concept and the key assumptions in my Strategic Positioning
+Statement, identify my three riskiest assumptions, the ones where being wrong would
+most threaten the viability of the business. For each assumption, suggest the smallest
+possible MVP I could build to test it within 30 days, and describe what validated
+learning would look like (what result would tell me the assumption is correct?).
+</pre></div>
+</div>
+</section>
+</section>
+<section id="business-model-canvas-with-ai">
+<h2>3.2 Business Model Canvas with AI<a class="headerlink" href="#business-model-canvas-with-ai" title="Link to this heading">#</a></h2>
+<p>The <strong>Business Model Canvas (BMC)</strong>, developed by Alexander Osterwalder and Yves Pigneur,
+is the most widely used tool in startup strategy. It maps how a company creates, delivers,
+and captures value in nine interconnected blocks, on a single page.</p>
+<p>The BMC is not a static document. It is a <em>hypothesis map</em>, in which every block is an assumption
+to be tested, validated, and iterated. AI is particularly powerful here because it can help
+you explore multiple model variants rapidly, stress-test assumptions, and identify
+interdependencies you might miss.</p>
+<section id="the-nine-blocks-of-the-bmc">
+<h3>The Nine Blocks of the BMC<a class="headerlink" href="#the-nine-blocks-of-the-bmc" title="Link to this heading">#</a></h3>
+<p>The canvas is organized into three zones:</p>
+<p><strong>Desirability</strong> (why customers want it):</p>
+<ul class="simple">
+<li><p>Customer Segments (CS)</p></li>
+<li><p>Value Propositions (VP)</p></li>
+<li><p>Customer Relationships (CR)</p></li>
+<li><p>Channels (CH)</p></li>
+</ul>
+<p><strong>Viability</strong> (how you make money):</p>
+<ul class="simple">
+<li><p>Revenue Streams (R$)</p></li>
+<li><p>Cost Structure (C$)</p></li>
+</ul>
+<p><strong>Feasibility</strong> (how you build and deliver it):</p>
+<ul class="simple">
+<li><p>Key Resources (KR)</p></li>
+<li><p>Key Activities (KA)</p></li>
+<li><p>Key Partnerships (KP)</p></li>
+</ul>
+<p>Download the BMC: <a class="reference download internal" download="" href="_downloads/90df489eb151e3b894a315b9f5e48308/business_model_canvas_poster.pdf"><span class="xref download myst">Business Model Canvas</span></a>.</p>
+<p>Online services that allow you to create your BMC:</p>
+<ul class="simple">
+<li><p><strong>Strategizer</strong>: <a class="reference external" href="https://www.strategyzer.com/library/the-business-model-canvas">https://www.strategyzer.com/library/the-business-model-canvas</a>.</p></li>
+<li><p><strong>Canvanizer</strong>: <a class="reference external" href="https://canvanizer.com/">https://canvanizer.com/</a>.</p></li>
+</ul>
+</section>
+<section id="block-1-customer-segments-cs">
+<h3>Block 1: Customer Segments (CS)<a class="headerlink" href="#block-1-customer-segments-cs" title="Link to this heading">#</a></h3>
+<p><strong>Definition:</strong> The specific groups of people or organizations you create value for.</p>
+<p><strong>Key question:</strong> <em>Who are we actually building this for and are they all the same, or are
+there distinct segments with different needs?</em></p>
+<blockquote>
+<div><p>You developed your primary customer persona in Module 2. Use it here, and consider
+whether there are secondary segments worth capturing in the BMC.</p>
+</div></blockquote>
+<p><strong>Reference Prompt:</strong></p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">Based</span> <span class="n">on</span> <span class="n">my</span> <span class="n">customer</span> <span class="n">persona</span> <span class="ow">and</span> <span class="n">value</span> <span class="n">proposition</span><span class="p">,</span> <span class="n">identify</span> <span class="n">whether</span> <span class="n">I</span> <span class="n">have</span> <span class="n">one</span> <span class="n">primary</span>
+<span class="n">customer</span> <span class="n">segment</span> <span class="ow">or</span> <span class="n">multiple</span> <span class="n">distinct</span> <span class="n">segments</span><span class="o">.</span> <span class="n">If</span> <span class="n">multiple</span><span class="p">,</span> <span class="n">describe</span> <span class="n">each</span> <span class="n">one</span> <span class="n">briefly</span>
+<span class="ow">and</span> <span class="n">explain</span> <span class="n">how</span> <span class="n">their</span> <span class="n">needs</span> <span class="n">differ</span><span class="o">.</span> <span class="n">Recommend</span> <span class="n">how</span> <span class="n">I</span> <span class="n">should</span> <span class="n">prioritize</span> <span class="n">them</span> <span class="ow">in</span> <span class="n">the</span>
+<span class="n">early</span> <span class="n">stage</span><span class="o">.</span>
+</pre></div>
+</div>
+</section>
+<section id="block-2-value-proposition-vp">
+<h3>Block 2: Value Proposition (VP)<a class="headerlink" href="#block-2-value-proposition-vp" title="Link to this heading">#</a></h3>
+<p><strong>Definition:</strong> The bundle of products and services that creates value for a specific customer
+segment, addressing pains, generating gains, or enabling customer jobs.</p>
+<p><strong>Key question:</strong> <em>What specific combination of features, outcomes, and experiences makes
+our offer genuinely valuable?</em></p>
+<p>Your VP was already developed in Session 2 via the Value Proposition Canvas. Bring it into the
+BMC here and refine it in light of feasibility and viability considerations.</p>
+</section>
+<section id="block-3-channels-ch">
+<h3>Block 3: Channels (CH)<a class="headerlink" href="#block-3-channels-ch" title="Link to this heading">#</a></h3>
+<p><strong>Definition:</strong> How you reach and deliver value to your customer segments, including
+awareness, evaluation, purchase, delivery, and after-sales support.</p>
+<p><strong>Channel types:</strong></p>
+<ul class="simple">
+<li><p><strong>Owned</strong>: Your website, app, direct sales team, email list.</p></li>
+<li><p><strong>Partnered</strong>: Distributors, affiliate networks, platform marketplaces (App Store, etc.).</p></li>
+<li><p><strong>AI-enhanced</strong>: Chatbots for customer service, automated onboarding, personalized
+recommendation engines.</p></li>
+</ul>
+<p><strong>Reference Prompt:</strong></p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">Suggest</span> <span class="n">the</span> <span class="n">most</span> <span class="n">effective</span> <span class="n">channel</span> <span class="n">mix</span> <span class="k">for</span> <span class="n">reaching</span> <span class="n">my</span> <span class="n">primary</span> <span class="n">customer</span> <span class="n">segment</span> <span class="ow">in</span>
+<span class="n">the</span> <span class="n">early</span> <span class="n">stage</span> <span class="n">of</span> <span class="n">the</span> <span class="n">company</span><span class="o">.</span> <span class="n">For</span> <span class="n">each</span> <span class="n">recommended</span> <span class="n">channel</span><span class="p">:</span>
+<span class="mf">1.</span> <span class="n">Explain</span> <span class="n">why</span> <span class="n">it</span> <span class="n">fits</span> <span class="n">this</span> <span class="n">specific</span> <span class="n">customer</span> <span class="nb">type</span><span class="o">.</span>
+<span class="mf">2.</span> <span class="n">Estimate</span> <span class="n">how</span> <span class="n">expensive</span> <span class="ow">and</span> <span class="n">how</span> <span class="n">fast</span> <span class="n">it</span> <span class="ow">is</span> <span class="n">to</span> <span class="n">activate</span><span class="o">.</span>
+<span class="mf">3.</span> <span class="n">Identify</span> <span class="n">one</span> <span class="n">AI</span> <span class="n">tool</span> <span class="ow">or</span> <span class="n">workflow</span> <span class="n">that</span> <span class="n">could</span> <span class="n">make</span> <span class="n">this</span> <span class="n">channel</span> <span class="n">more</span> <span class="n">efficient</span><span class="o">.</span>
+</pre></div>
+</div>
+</section>
+<section id="block-4-customer-relationships-cr">
+<h3>Block 4: Customer Relationships (CR)<a class="headerlink" href="#block-4-customer-relationships-cr" title="Link to this heading">#</a></h3>
+<p><strong>Definition:</strong> The type of relationship you establish and maintain with each customer
+segment, from fully automated to deeply personal.</p>
+<p><strong>Relationship types for AI-based companies:</strong></p>
+<div class="pst-scrollable-table-container"><table class="table">
+<thead>
+<tr class="row-odd"><th class="head"><p>Type</p></th>
+<th class="head"><p>Description</p></th>
+<th class="head"><p>AI Application</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Self-service</p></td>
+<td><p>Customer helps themselves via tools and documentation</p></td>
+<td><p>AI-powered knowledge base, chatbot support</p></td>
+</tr>
+<tr class="row-odd"><td><p>Automated</p></td>
+<td><p>Fully automated, personalized interactions at scale</p></td>
+<td><p>Recommendation engines, triggered messaging</p></td>
+</tr>
+<tr class="row-even"><td><p>Community</p></td>
+<td><p>Customer-to-customer interactions</p></td>
+<td><p>AI-moderated forums, peer matching</p></td>
+</tr>
+<tr class="row-odd"><td><p>Co-creation</p></td>
+<td><p>Customers contribute to value creation</p></td>
+<td><p>AI tools that learn from user behavior</p></td>
+</tr>
+<tr class="row-even"><td><p>Dedicated personal</p></td>
+<td><p>High-touch human relationships</p></td>
+<td><p>AI-assisted account managers</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</section>
+<section id="block-5-revenue-streams-r">
+<h3>Block 5: Revenue Streams (R$)<a class="headerlink" href="#block-5-revenue-streams-r" title="Link to this heading">#</a></h3>
+<p><strong>Definition:</strong> How the company generates cash from each customer segment; the pricing
+mechanisms and revenue models that sustain the business.</p>
+<p><strong>Common revenue models for AI-enabled startups:</strong></p>
+<div class="pst-scrollable-table-container"><table class="table">
+<thead>
+<tr class="row-odd"><th class="head"><p>Model</p></th>
+<th class="head"><p>Description</p></th>
+<th class="head"><p>Example</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Subscription (SaaS)</p></td>
+<td><p>Recurring fee for ongoing access</p></td>
+<td><p>$49/month per user</p></td>
+</tr>
+<tr class="row-odd"><td><p>Usage-based</p></td>
+<td><p>Pay per use or per unit of AI consumption</p></td>
+<td><p>Per API call, per report generated</p></td>
+</tr>
+<tr class="row-even"><td><p>Freemium</p></td>
+<td><p>Free core + paid premium features</p></td>
+<td><p>Free tier + Pro at $19/month</p></td>
+</tr>
+<tr class="row-odd"><td><p>Transaction fee</p></td>
+<td><p>Percentage of each transaction facilitated</p></td>
+<td><p>2.5% per sale processed</p></td>
+</tr>
+<tr class="row-even"><td><p>Licensing</p></td>
+<td><p>License the technology to other businesses</p></td>
+<td><p>White-label AI model</p></td>
+</tr>
+<tr class="row-odd"><td><p>Data monetization</p></td>
+<td><p>Monetize aggregated, anonymized insights</p></td>
+<td><p>Sell market intelligence reports</p></td>
+</tr>
+<tr class="row-even"><td><p>Professional services</p></td>
+<td><p>Consulting, onboarding, custom implementation</p></td>
+<td><p>$5,000 setup + monthly retainer</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><strong>Reference Prompt:</strong></p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">Recommend</span> <span class="n">three</span> <span class="n">revenue</span> <span class="n">model</span> <span class="n">options</span> <span class="k">for</span> <span class="n">my</span> <span class="n">company</span><span class="p">,</span> <span class="n">ranked</span> <span class="n">by</span> <span class="n">fit</span> <span class="k">with</span> <span class="n">my</span> <span class="n">customer</span>
+<span class="n">segment</span> <span class="ow">and</span> <span class="n">business</span> <span class="n">concept</span><span class="o">.</span> <span class="n">For</span> <span class="n">each</span> <span class="n">option</span><span class="p">:</span>
+<span class="mf">1.</span> <span class="n">Describe</span> <span class="n">how</span> <span class="n">it</span> <span class="n">would</span> <span class="n">work</span> <span class="ow">in</span> <span class="n">practice</span> <span class="k">for</span> <span class="n">my</span> <span class="n">specific</span> <span class="n">product</span><span class="o">.</span>
+<span class="mf">2.</span> <span class="n">Estimate</span> <span class="n">a</span> <span class="n">realistic</span> <span class="n">price</span> <span class="nb">range</span> <span class="ow">and</span> <span class="n">the</span> <span class="n">reasoning</span> <span class="n">behind</span> <span class="n">it</span><span class="o">.</span>
+<span class="mf">3.</span> <span class="n">Identify</span> <span class="n">the</span> <span class="n">main</span> <span class="n">risk</span> <span class="ow">or</span> <span class="n">challenge</span> <span class="k">with</span> <span class="n">this</span> <span class="n">model</span><span class="o">.</span>
+<span class="n">Then</span> <span class="n">recommend</span> <span class="n">which</span> <span class="n">model</span> <span class="n">I</span> <span class="n">should</span> <span class="n">pursue</span> <span class="n">first</span> <span class="ow">and</span> <span class="n">why</span><span class="o">.</span>
+</pre></div>
+</div>
+</section>
+<section id="block-6-key-resources-kr">
+<h3>Block 6: Key Resources (KR)<a class="headerlink" href="#block-6-key-resources-kr" title="Link to this heading">#</a></h3>
+<p><strong>Definition:</strong> The most important assets required to make the business model work — physical,
+intellectual, human, or financial.</p>
+<p><strong>For AI-based startups, key resources typically include:</strong></p>
+<ul class="simple">
+<li><p><strong>Data</strong>: Training data, proprietary datasets, customer data with consent.</p></li>
+<li><p><strong>AI infrastructure</strong>: API access (OpenAI, Anthropic, Google), compute resources, fine-tuned
+models.</p></li>
+<li><p><strong>Intellectual property</strong>: Algorithms, workflows, branded methodologies.</p></li>
+<li><p><strong>Talent</strong>: AI literacy, domain expertise, sales capability.</p></li>
+<li><p><strong>Customer relationships</strong>: A loyal early-adopter base that provides feedback and referrals.</p></li>
+</ul>
+</section>
+<section id="block-7-key-activities-ka">
+<h3>Block 7: Key Activities (KA)<a class="headerlink" href="#block-7-key-activities-ka" title="Link to this heading">#</a></h3>
+<p><strong>Definition:</strong> The most important actions the company must perform to operate and grow.</p>
+<p><strong>Examples for an AI-enabled startup:</strong></p>
+<ul class="simple">
+<li><p>Continuous model improvement and prompt optimization.</p></li>
+<li><p>Customer onboarding and success management.</p></li>
+<li><p>Data collection, curation, and quality management.</p></li>
+<li><p>Sales, marketing, and community building.</p></li>
+<li><p>Regulatory compliance and AI safety monitoring.</p></li>
+</ul>
+<p><strong>Reference Prompt:</strong></p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">Identify</span> <span class="n">the</span> <span class="n">five</span> <span class="n">most</span> <span class="n">critical</span> <span class="n">activities</span> <span class="n">my</span> <span class="n">company</span> <span class="n">must</span> <span class="n">excel</span> <span class="n">at</span> <span class="n">to</span> <span class="n">deliver</span> <span class="n">on</span> <span class="n">the</span>
+<span class="n">value</span> <span class="n">proposition</span> <span class="ow">and</span> <span class="n">operate</span> <span class="n">the</span> <span class="n">business</span> <span class="n">model</span><span class="o">.</span> <span class="n">For</span> <span class="n">each</span> <span class="n">activity</span><span class="p">,</span> <span class="n">identify</span> <span class="n">whether</span>
+<span class="n">AI</span> <span class="n">can</span> <span class="n">automate</span> <span class="ow">or</span> <span class="n">augment</span> <span class="n">it</span><span class="p">,</span> <span class="ow">and</span> <span class="k">if</span> <span class="n">so</span><span class="p">,</span> <span class="n">how</span><span class="o">.</span> <span class="n">Be</span> <span class="n">specific</span> <span class="n">about</span> <span class="n">which</span> <span class="n">AI</span> <span class="n">tools</span> <span class="ow">or</span>
+<span class="n">workflows</span> <span class="n">are</span> <span class="n">most</span> <span class="n">relevant</span><span class="o">.</span>
+</pre></div>
+</div>
+</section>
+<section id="block-8-key-partnerships-kp">
+<h3>Block 8: Key Partnerships (KP)<a class="headerlink" href="#block-8-key-partnerships-kp" title="Link to this heading">#</a></h3>
+<p><strong>Definition:</strong> The network of suppliers and partners that help the business model work.</p>
+<p><strong>Partnership types:</strong></p>
+<ul class="simple">
+<li><p><strong>Strategic alliances</strong>: Non-competitor partners who share resources or distribution.</p></li>
+<li><p><strong>Technology partners</strong>: API providers, cloud platforms, AI model providers.</p></li>
+<li><p><strong>Channel partners</strong>: Distributors, resellers, or platform operators who reach your
+customer segments.</p></li>
+<li><p><strong>Data partners</strong>: Organizations that provide or co-develop the data your AI depends on.</p></li>
+</ul>
+<p><strong>Reference Prompt:</strong></p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">Identify</span> <span class="n">the</span> <span class="n">three</span> <span class="n">most</span> <span class="n">important</span> <span class="n">partnerships</span> <span class="n">my</span> <span class="n">company</span> <span class="n">should</span> <span class="n">pursue</span> <span class="ow">in</span> <span class="n">the</span> <span class="n">first</span>
+<span class="n">year</span><span class="o">.</span> <span class="n">For</span> <span class="n">each</span> <span class="n">partnership</span><span class="p">:</span>
+<span class="mf">1.</span> <span class="n">Describe</span> <span class="n">what</span> <span class="n">we</span> <span class="n">need</span> <span class="kn">from</span><span class="w"> </span><span class="nn">this</span> <span class="n">partner</span> <span class="ow">and</span> <span class="n">what</span> <span class="n">we</span> <span class="n">offer</span> <span class="ow">in</span> <span class="k">return</span><span class="o">.</span>
+<span class="mf">2.</span> <span class="n">Name</span> <span class="n">two</span> <span class="ow">or</span> <span class="n">three</span> <span class="n">specific</span> <span class="n">companies</span> <span class="ow">or</span> <span class="n">organizations</span> <span class="n">that</span> <span class="n">could</span> <span class="n">fill</span> <span class="n">this</span> <span class="n">role</span><span class="o">.</span>
+<span class="mf">3.</span> <span class="n">Suggest</span> <span class="n">how</span> <span class="n">I</span> <span class="n">would</span> <span class="n">approach</span> <span class="n">initiating</span> <span class="n">this</span> <span class="n">relationship</span><span class="o">.</span>
+</pre></div>
+</div>
+</section>
+<section id="block-9-cost-structure-c">
+<h3>Block 9: Cost Structure (C$)<a class="headerlink" href="#block-9-cost-structure-c" title="Link to this heading">#</a></h3>
+<p><strong>Definition:</strong> The most significant costs involved in operating the business model.</p>
+<p><strong>Key distinction:</strong></p>
+<ul class="simple">
+<li><p><strong>Fixed costs</strong>: Do not vary with volume, such as salaries, office space, software subscriptions.</p></li>
+<li><p><strong>Variable costs</strong>: Scale with activity, such as API costs per query, cloud compute per user,
+transaction fees.</p></li>
+<li><p><strong>AI-specific cost drivers</strong>: LLM API costs (can be significant at scale), data storage,
+model training compute, and human-in-the-loop review processes.</p></li>
+</ul>
+<p><strong>Unit economics basics:</strong></p>
+<p>The two most important early-stage unit economics metrics are:</p>
+<ul class="simple">
+<li><p><strong>Customer Acquisition Cost (CAC)</strong>: Total sales and marketing spend divided by the number
+of new customers acquired in that period.</p></li>
+<li><p><strong>Customer Lifetime Value (LTV)</strong>: The total revenue a customer generates over their
+relationship with you.</p></li>
+</ul>
+<p><strong>The fundamental viability test: LTV &gt; CAC</strong> (ideally by a factor of 3× or more).</p>
+<p><strong>Reference Prompt:</strong></p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">Outline</span> <span class="n">the</span> <span class="n">cost</span> <span class="n">structure</span> <span class="k">for</span> <span class="n">my</span> <span class="n">business</span> <span class="n">model</span><span class="o">.</span> <span class="n">Identify</span><span class="p">:</span>
+<span class="mf">1.</span> <span class="n">The</span> <span class="n">three</span> <span class="n">largest</span> <span class="n">fixed</span> <span class="n">cost</span> <span class="n">categories</span> <span class="ow">in</span> <span class="n">year</span> <span class="n">one</span><span class="o">.</span>
+<span class="mf">2.</span> <span class="n">The</span> <span class="n">two</span> <span class="n">main</span> <span class="n">variable</span> <span class="n">costs</span> <span class="n">that</span> <span class="n">will</span> <span class="n">scale</span> <span class="k">with</span> <span class="n">revenue</span><span class="o">.</span>
+<span class="mf">3.</span> <span class="n">A</span> <span class="n">rough</span> <span class="n">estimate</span> <span class="n">of</span> <span class="n">my</span> <span class="n">Customer</span> <span class="n">Acquisition</span> <span class="n">Cost</span> <span class="p">(</span><span class="n">CAC</span><span class="p">)</span> <span class="n">based</span> <span class="n">on</span> <span class="n">the</span> <span class="n">channels</span> <span class="n">we</span>
+   <span class="n">discussed</span><span class="p">,</span> <span class="ow">and</span> <span class="n">what</span> <span class="n">I</span> <span class="n">would</span> <span class="n">need</span> <span class="n">my</span> <span class="n">average</span> <span class="n">customer</span> <span class="n">to</span> <span class="n">spend</span> <span class="n">annually</span> <span class="n">to</span> <span class="n">achieve</span>
+   <span class="n">a</span> <span class="n">healthy</span> <span class="n">LTV</span><span class="o">/</span><span class="n">CAC</span> <span class="n">ratio</span><span class="o">.</span>
+<span class="n">Be</span> <span class="n">explicit</span> <span class="n">about</span> <span class="n">your</span> <span class="n">assumptions</span><span class="o">.</span>
+</pre></div>
+</div>
+</section>
+<section id="full-canvas-assembly">
+<h3>Full Canvas Assembly<a class="headerlink" href="#full-canvas-assembly" title="Link to this heading">#</a></h3>
+<p><strong>Reference Prompt:</strong></p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>Assemble everything we have discussed into a complete Business Model Canvas summary.
+Present it in a 3×3 grid format with the nine blocks. After the canvas, provide a
+&quot;Canvas Consistency Check&quot;, that is, identify any blocks where the assumptions conflict with
+each other, and flag the one assumption in the entire canvas you consider most risky
+and most in need of validation.
+</pre></div>
+</div>
+</section>
+</section>
+<section id="legal-essentials-for-ai-founders">
+<h2>3.3 Legal Essentials for AI Founders<a class="headerlink" href="#legal-essentials-for-ai-founders" title="Link to this heading">#</a></h2>
+<p>Legal considerations are often deferred by early-stage founders, usually until they become
+urgent. In the AI space, deferring certain legal decisions can create serious structural
+problems later. This section provides a focused overview of what founders need to understand
+from day one.</p>
+<p><em>Note: The following is educational information, not legal advice. Always consult a qualified
+attorney for decisions specific to your company.</em></p>
+<section id="startup-legal-structures">
+<h3>3.3.1 Startup Legal Structures<a class="headerlink" href="#startup-legal-structures" title="Link to this heading">#</a></h3>
+<p>The most common legal structures for US-based startups, and their key trade-offs:</p>
+<div class="pst-scrollable-table-container"><table class="table">
+<thead>
+<tr class="row-odd"><th class="head"><p>Structure</p></th>
+<th class="head"><p>Liability Protection</p></th>
+<th class="head"><p>Investor Suitability</p></th>
+<th class="head"><p>Tax Treatment</p></th>
+<th class="head"><p>Best For</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><strong>Sole Proprietorship</strong></p></td>
+<td><p>None</p></td>
+<td><p>Not suitable</p></td>
+<td><p>Pass-through</p></td>
+<td><p>Pre-incorporation testing only</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>LLC</strong></p></td>
+<td><p>Yes</p></td>
+<td><p>Limited</p></td>
+<td><p>Pass-through (flexible)</p></td>
+<td><p>Early stage, solo or small team</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>C-Corporation</strong></p></td>
+<td><p>Yes</p></td>
+<td><p>Ideal (VC-ready)</p></td>
+<td><p>Double taxation (offset by structure)</p></td>
+<td><p>VC-funded startups</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>S-Corporation</strong></p></td>
+<td><p>Yes</p></td>
+<td><p>Limited (US investors only)</p></td>
+<td><p>Pass-through</p></td>
+<td><p>Small business, not VC track</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<blockquote>
+<div><p>If you plan to raise venture capital, <strong>Delaware C-Corporation</strong> is the standard
+structure. Most VCs require it. If you are bootstrapping or seeking angel investment,
+an <strong>LLC</strong> offers more flexibility with less administrative burden.</p>
+</div></blockquote>
+</section>
+<section id="intellectual-property-for-ai-founders">
+<h3>3.3.2 Intellectual Property for AI Founders<a class="headerlink" href="#intellectual-property-for-ai-founders" title="Link to this heading">#</a></h3>
+<p>Intellectual property (IP) protection is especially complex and important for AI
+companies. Key considerations:</p>
+<ul class="simple">
+<li><p><strong>Who owns AI-generated content?</strong> Currently, in the US, purely AI-generated outputs
+without meaningful human creative input cannot be copyrighted. Human authorship of prompts,
+curation of outputs, and training data selection can establish protectable IP.</p></li>
+<li><p><strong>Trade secrets vs. patents</strong>: Most AI startup IP is protected as trade secrets (the model
+architecture, training data, and fine-tuning approach) rather than patents, which require
+public disclosure.</p></li>
+<li><p><strong>Founder IP assignment</strong>: Ensure all founders and early employees sign IP assignment
+agreements, assigning any company-relevant IP they create to the company.</p></li>
+<li><p><strong>Open-source dependencies</strong>: If your product is built on open-source AI models, understand
+the license terms (some prohibit commercial use without a license agreement).</p></li>
+</ul>
+</section>
+<section id="data-privacy-and-ai-liability">
+<h3>3.3.3 Data Privacy and AI Liability<a class="headerlink" href="#data-privacy-and-ai-liability" title="Link to this heading">#</a></h3>
+<ul class="simple">
+<li><p><strong>GDPR (EU) and US State Privacy Laws</strong>: If your product collects, processes, or stores
+personal data, you must comply with applicable privacy laws. AI systems that make automated
+decisions about individuals face additional scrutiny under GDPR Article 22.</p></li>
+<li><p><strong>Terms of Service for AI APIs</strong>: Review the terms of the AI APIs you rely on. Some prohibit
+specific use cases (e.g., medical diagnosis, legal advice) or require specific disclosures
+when AI-generated content is presented to end users.</p></li>
+<li><p><strong>AI transparency obligations</strong>: A growing number of jurisdictions (EU AI Act, US executive
+orders) require disclosure when users are interacting with AI systems. Build this into your
+product design from the start.</p></li>
+</ul>
+<p><strong>Reference Prompt:</strong></p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>Based on my company concept, identify the top three legal considerations I should
+address before launching. For each one, describe the risk of not addressing it and
+suggest the first concrete step I should take to mitigate it. Keep this practical —
+I am an early-stage founder, not yet funded.
+</pre></div>
+</div>
+</section>
+</section>
+<section id="the-funding-landscape">
+<h2>3.4 The Funding Landscape<a class="headerlink" href="#the-funding-landscape" title="Link to this heading">#</a></h2>
+<p>Understanding the funding landscape helps you make better decisions about how to grow,
+even if you are not currently seeking investment. Knowing what investors look for sharpens
+your planning discipline and prepares you for future conversations.</p>
+<section id="startup-financing-stages">
+<h3>Startup Financing Stages<a class="headerlink" href="#startup-financing-stages" title="Link to this heading">#</a></h3>
+<div class="pst-scrollable-table-container"><table class="table">
+<thead>
+<tr class="row-odd"><th class="head"><p>Stage</p></th>
+<th class="head"><p>What It Funds</p></th>
+<th class="head"><p>Typical Sources</p></th>
+<th class="head"><p>Amount</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><strong>Pre-Seed</strong></p></td>
+<td><p>Idea validation, founding team, initial prototype</p></td>
+<td><p>Bootstrapping, friends &amp; family, grants</p></td>
+<td><p><span class="math notranslate nohighlight">\(0 – \)</span>250K</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>Seed</strong></p></td>
+<td><p>MVP development, early customer acquisition, team building</p></td>
+<td><p>Angel investors, seed-stage VCs, accelerators</p></td>
+<td><p><span class="math notranslate nohighlight">\(250K – \)</span>3M</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>Series A</strong></p></td>
+<td><p>Proven model, scaling sales, product expansion</p></td>
+<td><p>Venture capital</p></td>
+<td><p><span class="math notranslate nohighlight">\(3M – \)</span>15M</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>Series B+</strong></p></td>
+<td><p>Market expansion, team growth, geographic scale</p></td>
+<td><p>VC, growth equity</p></td>
+<td><p>$15M+</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><img alt="Funding Stages" src="_images/StartupFinancingStages.png" /></p>
+</section>
+<section id="non-dilutive-funding-options">
+<h3>Non-Dilutive Funding Options<a class="headerlink" href="#non-dilutive-funding-options" title="Link to this heading">#</a></h3>
+<p>Not all early-stage funding requires giving up equity. Non-dilutive sources are often
+overlooked and highly valuable:</p>
+<ul class="simple">
+<li><p><strong>Grants</strong>: SBIR/STTR grants (federal, <span class="math notranslate nohighlight">\(150K–\)</span>2M), state innovation grants, foundation
+grants for social impact ventures.</p></li>
+<li><p><strong>Business competitions</strong>: Many universities and accelerators run competitions with
+prize money and in-kind support.</p></li>
+<li><p><strong>Revenue</strong>: The simplest non-dilutive capital. Customers who pay before you build
+the full product (letters of intent, pre-sales, pilots).</p></li>
+<li><p><strong>Incubators and accelerators</strong>: Programs like Y Combinator, Techstars, and university-based
+accelerators often provide funding, mentorship, and network access in exchange for a small
+equity stake.</p></li>
+</ul>
+</section>
+<section id="what-early-stage-investors-look-for">
+<h3>What Early-Stage Investors Look For<a class="headerlink" href="#what-early-stage-investors-look-for" title="Link to this heading">#</a></h3>
+<p>At the seed stage, investors are primarily betting on three things — in roughly this order
+of importance:</p>
+<ol class="arabic simple">
+<li><p><strong>Team</strong>: Are these founders uniquely well-suited to solve this problem? Do they have
+relevant domain expertise, resilience, and coachability?</p></li>
+<li><p><strong>Problem and market</strong>: Is the problem real and painful enough for a large enough group
+of people to support a significant business?</p></li>
+<li><p><strong>Early traction</strong>: Is there any evidence, even small signals, that real customers care?
+(Paid pilots, waitlist sign-ups, letters of intent, early revenue.)</p></li>
+</ol>
+<p>Your AI Company Blueprint, when complete, should address all three of these dimensions.</p>
+<p><strong>Reference Prompt:</strong></p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>Based on my company concept and the business model we have developed, which funding path
+makes most sense for my first 12 months: bootstrapping, angel investment, grants, or a
+combination? Walk me through your reasoning. Then suggest one specific non-dilutive
+funding opportunity I should investigate for my domain and geography.
+</pre></div>
+</div>
+</section>
+</section>
+<section id="blueprint-checkpoint-3-business-model-canvas">
+<h2>📋 Blueprint Checkpoint 3: Business Model Canvas<a class="headerlink" href="#blueprint-checkpoint-3-business-model-canvas" title="Link to this heading">#</a></h2>
+<p>At the end of this session, compile the third piece of your AI Company Blueprint. Your
+<strong>Business Model Canvas</strong> should include:</p>
+<ul class="contains-task-list simple">
+<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox"> <strong>Customer Segments</strong>: Primary and any secondary segments identified</p></li>
+<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox"> <strong>Value Propositions</strong>: Refined from Session 2 + linked to BMC context</p></li>
+<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox"> <strong>Channels</strong>: Recommended channel mix with rationale</p></li>
+<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox"> <strong>Customer Relationships</strong>: Relationship type and AI enhancement strategy</p></li>
+<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox"> <strong>Revenue Streams</strong>: Selected revenue model with pricing rationale</p></li>
+<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox"> <strong>Key Resources</strong>: Top 3–5 critical assets</p></li>
+<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox"> <strong>Key Activities</strong>: Top 5 critical operational activities</p></li>
+<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox"> <strong>Key Partnerships</strong>: Top 3 partnerships with approach notes</p></li>
+<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox"> <strong>Cost Structure</strong>: Fixed/variable cost categories + LTV/CAC framing</p></li>
+<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox"> <strong>Canvas Consistency Check</strong>: Noted conflicts and riskiest assumption</p></li>
+</ul>
+<p><strong>Update your Workspace</strong> by pasting this completed BMC before Session 4.</p>
+<p><strong>Refernce Prompt</strong>:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>You are a strategic editor and business model synthesis specialist. 
+Your task is to compile previously developed content into a single, coherent
+**Business Model Canvas (BMC) + Lean Startup Validation Framework**.
+Use the existing materials in this workspace. Do NOT create new ideas unless
+something is clearly missing or logically inconsistent with the other blocks.
+
+Your job is to:
+- Consolidate content across all 9 BMC blocks
+- Remove redundancy and surface-level entries
+- Ensure logical consistency and interdependency across blocks
+- Standardize tone and structure throughout
+- Integrate Lean Startup thinking into the model (not as a separate section,
+  but embedded in how each block is framed and validated)
+- Reflect the role of AI as a co-founder — where applicable, note how AI
+  tools, capabilities, or processes enable or enhance the business model
+
+If there are minor inconsistencies between blocks, resolve them in the most
+logical way. If a block is critically underdeveloped, make a minimal,
+reasonable addition and flag it clearly.
+
+SECTION 1 — BUSINESS MODEL CANVAS
+
+Present each block using the structure below. For each block, provide:
+- A concise, outcome-oriented description (2–4 bullets)
+- A &quot;Lean Lens&quot; note indicating what assumption this block contains and
+  how it would be tested (one sentence per block)
+
+1. **Customer Segments**
+   - Who are the specific customers this business is designed to serve?
+   - Prioritize and distinguish between primary and secondary segments
+   - Indicate whether the model is B2B, B2C, B2B2C, platform, or other
+   - Lean Lens: What is the riskiest assumption about who your customer is,
+     and what is the minimum experiment to validate it?
+
+2. **Value Propositions**
+   - What value does the business deliver to each customer segment?
+   - Map each proposition to a specific customer pain or gain from the
+     Customer Persona developed in Module 2
+   - Distinguish between functional, emotional, and social value
+   - Lean Lens: Which value proposition is least validated, and what
+     would a Minimum Viable Test look like?
+
+3. **Channels**
+   - How does the business reach its customer segments?
+   - Cover awareness, evaluation, purchase, delivery, and post-sale stages
+   - Note which channels are owned, earned, or paid
+   - Lean Lens: Which channel assumption has the least evidence, and
+     how could it be tested with minimal investment?
+
+4. **Customer Relationships**
+   - What type of relationship does the business establish with each segment?
+   - (e.g., self-service, community, dedicated support, co-creation,
+     automated personalization)
+   - Note how AI enables or scales these relationships
+   - Lean Lens: What is assumed about customer retention or engagement
+     that still requires validation?
+
+5. **Revenue Streams**
+   - How does the business generate revenue from each customer segment?
+   - Specify pricing model (subscription, usage, licensing, transaction, etc.)
+   - Identify primary vs. secondary revenue streams
+   - Lean Lens: What is assumed about willingness to pay, and what
+     experiment could test it quickly?
+
+6. **Key Resources**
+   - What assets are essential for this business model to function?
+   - Categorize as: physical, intellectual, human, or financial
+   - Explicitly identify AI or data assets that function as strategic
+     resources (treat these as co-founder-level inputs where relevant)
+   - Lean Lens: Which key resource represents the highest dependency risk?
+
+7. **Key Activities**
+   - What critical activities must the business perform to deliver its value?
+   - Categorize as: production, problem-solving, or platform/network
+   - Identify where AI augments or automates core activities
+   - Lean Lens: Which activity is most operationally untested at this stage?
+
+8. **Key Partners**
+   - Who are the critical partners or suppliers the business relies on?
+   - Distinguish between: optimization partnerships, risk-reduction
+     alliances, and resource/capability acquisition
+   - Include AI platforms, data providers, or technology partners
+     where they are structurally essential
+   - Lean Lens: Which partnership is assumed but not yet confirmed?
+
+9. **Cost Structure**
+   - What are the most significant costs inherent in this business model?
+   - Categorize as fixed vs. variable
+   - Identify value-driven vs. cost-driven priorities
+   - Note where AI reduces structural costs or shifts the cost model
+   - Lean Lens: What cost assumption is most sensitive to scale?
+
+SECTION 2 — LEAN STARTUP VALIDATION FRAMEWORK
+
+Present this section in three parts.
+
+A. BUILD-MEASURE-LEARN LOOP SUMMARY
+
+10. **Current Stage Assessment**
+    - Where is this business in the BML cycle?
+      (Idea → Build → Measure → Learn → Iterate or Pivot)
+    - What has already been learned from customer discovery (Module 2)?
+    - What remains most uncertain heading into the build phase?
+
+11. **Minimum Viable Product (MVP) Definition**
+    - What is the simplest version of the product or service that can
+      generate validated learning?
+    - Specify the MVP type: (e.g., landing page, concierge, prototype,
+      Wizard of Oz, pilot, explainer video)
+    - Define the one primary question the MVP is designed to answer
+    - Identify the 1–2 metrics that will indicate success or failure
+
+B. RISKIEST ASSUMPTION TRACKER
+
+12. **Top 3 Critical Assumptions**
+    List and rank by risk level (1 = highest):
+    - State each assumption clearly
+    - Identify which BMC block it belongs to
+    - Propose a lightweight test or experiment to validate it
+    - Define the threshold for &quot;validated&quot; vs. &quot;invalidated&quot;
+
+C. PIVOT OR PERSEVERE FRAMEWORK
+
+13. **Pivot Triggers**
+    - Under what conditions should the business consider a pivot?
+    - Identify which BMC blocks are most susceptible to pivot-forcing
+      discoveries (e.g., customer segment, value proposition, revenue model)
+    - Name one plausible pivot variant for the highest-risk assumption
+
+SECTION 3 — BUSINESS MODEL COHERENCE ASSESSMENT
+
+14. **Internal Fit Analysis**
+    - Are the 9 blocks logically consistent with one another?
+    - Where are the strongest alignments? (e.g., value proposition
+      to customer segment; key activities to key resources)
+    - Where are the weakest links or potential contradictions?
+
+15. **Strategic Differentiation Statement**
+    Synthesize into one sentence using this exact format:
+    &quot;[Company] creates value for [customer segment] by [key activity or
+    capability] in a way that [competitors or alternatives] cannot easily
+    replicate, because [source of defensibility].&quot;
+
+16. **AI Co-Founder Integration Summary**
+    In 2–3 bullets, describe how AI functions not just as a tool but as a
+    structural element of this business model — identifying where it shapes
+    the value proposition, enables key activities, or creates competitive
+    advantage.
+
+QUALITY REQUIREMENTS
+- Every BMC block must connect logically to at least one other block
+- Value Propositions must trace directly to Customer Segments and to the
+  Persona developed in Module 2
+- Avoid vague entries (e.g., &quot;social media&quot; is not a channel; name the
+  platform, method, and stage)
+- Lean Lens notes must be specific and actionable, not generic
+- AI integration must be substantive — avoid token references (&quot;we&#39;ll use AI
+  to improve efficiency&quot;)
+- Maintain an investor-ready tone: precise, concrete, and hypothesis-driven
+
+OUTPUT FORMAT
+Use clear section headings and structured formatting (bullets or tables where appropriate).
+Do not explain your reasoning — provide only the final compiled document and save it in a DOCX file.
+</pre></div>
+</div>
+<section id="cw-3-1-business-model-canvas-build">
+<h3>⚙️ CW 3.1 — Business Model Canvas Build<a class="headerlink" href="#cw-3-1-business-model-canvas-build" title="Link to this heading">#</a></h3>
+<p><strong>Instructions:</strong></p>
+<ol class="arabic simple">
+<li><p>Work through each of the nine BMC blocks using the workspace prompts in section 3.2.</p></li>
+<li><p>For each block, generate an AI draft and then refine it — push back on at least one
+output you disagree with and explain why.</p></li>
+<li><p>Use the Full Canvas Assembly prompt to get a complete view and consistency check.</p></li>
+<li><p>Identify your riskiest assumption and share it with the group with a proposed way to
+test it.</p></li>
+</ol>
+<p><strong>Time:</strong> 40 minutes</p>
+<p><strong>Expected output:</strong> A completed Business Model Canvas with consistency check (Blueprint Piece 3).</p>
+</section>
+</section>
+<section id="further-reading">
+<h2>Further Reading<a class="headerlink" href="#further-reading" title="Link to this heading">#</a></h2>
+<ul class="simple">
+<li><p>Osterwalder, A., &amp; Pigneur, Y. (2010). <em>Business Model Generation.</em> Wiley.</p></li>
+<li><p>Ries, E. (2011). <em>The Lean Startup.</em> Crown Business.</p></li>
+<li><p>Maurya, A. (2012). <em>Running Lean: Iterate from Plan A to a Plan That Works.</em> O’Reilly.</p></li>
+<li><p>Wasserman, N. (2013). <em>The Founder’s Dilemmas.</em> Princeton University Press.</p></li>
+</ul>
+</section>
+</section>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            name: "python3",
+            path: "./."
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+                </article>
+              
+
+              
+              
+              
+              
+                <footer class="prev-next-footer d-print-none">
+                  
+<div class="prev-next-area">
+    <a class="left-prev"
+       href="Module2_Customer_Idea_Discovery.html"
+       title="previous page">
+      <i class="fa-solid fa-angle-left"></i>
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">previous</p>
+        <p class="prev-next-title">Module 2: Customer &amp; Idea Discovery with AI</p>
+      </div>
+    </a>
+    <a class="right-next"
+       href="Module4_Plan_to_Pitch.html"
+       title="next page">
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">Session 4: From Plan to Pitch with AI</p>
+      </div>
+      <i class="fa-solid fa-angle-right"></i>
+    </a>
+</div>
+                </footer>
+              
+            </div>
+            
+            
+              
+                <dialog id="pst-secondary-sidebar-modal"></dialog>
+                <div id="pst-secondary-sidebar" class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item"><div
+    id="pst-page-navigation-heading-2"
+    class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav id="pst-page-toc-nav" class="page-toc" aria-labelledby="pst-page-navigation-heading-2">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#module-overview">Module Overview</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#workspace-warm-up">Workspace Warm-Up</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#lean-startup-essentials">3.1 Lean Startup Essentials</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#the-build-measure-learn-loop">3.1.1 The Build-Measure-Learn Loop</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#validated-learning">3.1.2 Validated Learning</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#mvp-thinking-for-non-technical-founders">3.1.3 MVP Thinking for Non-Technical Founders</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#business-model-canvas-with-ai">3.2 Business Model Canvas with AI</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#the-nine-blocks-of-the-bmc">The Nine Blocks of the BMC</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#block-1-customer-segments-cs">Block 1: Customer Segments (CS)</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#block-2-value-proposition-vp">Block 2: Value Proposition (VP)</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#block-3-channels-ch">Block 3: Channels (CH)</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#block-4-customer-relationships-cr">Block 4: Customer Relationships (CR)</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#block-5-revenue-streams-r">Block 5: Revenue Streams (R$)</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#block-6-key-resources-kr">Block 6: Key Resources (KR)</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#block-7-key-activities-ka">Block 7: Key Activities (KA)</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#block-8-key-partnerships-kp">Block 8: Key Partnerships (KP)</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#block-9-cost-structure-c">Block 9: Cost Structure (C$)</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#full-canvas-assembly">Full Canvas Assembly</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#legal-essentials-for-ai-founders">3.3 Legal Essentials for AI Founders</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#startup-legal-structures">3.3.1 Startup Legal Structures</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#intellectual-property-for-ai-founders">3.3.2 Intellectual Property for AI Founders</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#data-privacy-and-ai-liability">3.3.3 Data Privacy and AI Liability</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#the-funding-landscape">3.4 The Funding Landscape</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#startup-financing-stages">Startup Financing Stages</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#non-dilutive-funding-options">Non-Dilutive Funding Options</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#what-early-stage-investors-look-for">What Early-Stage Investors Look For</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#blueprint-checkpoint-3-business-model-canvas">📋 Blueprint Checkpoint 3: Business Model Canvas</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#cw-3-1-business-model-canvas-build">⚙️ CW 3.1 — Business Model Canvas Build</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#further-reading">Further Reading</a></li>
+</ul>
+  </nav></div>
+
+</div></div>
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            
+<div class="bd-footer-content__inner container">
+  
+  <div class="footer-item">
+    
+<p class="component-author">
+By Leandro Nunes de Castro, Ph.D.
+</p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+
+  <p class="copyright">
+    
+      © Copyright 2023.
+      <br/>
+    
+  </p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+</div>
+          </footer>
+        
+
+      </main>
+    </div>
+  </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script defer src="_static/scripts/bootstrap.js?digest=8878045cc6db502f8baf"></script>
+<script defer src="_static/scripts/pydata-sphinx-theme.js?digest=8878045cc6db502f8baf"></script>
+
+  <footer class="bd-footer">
+  </footer>
+  </body>
+</html>
