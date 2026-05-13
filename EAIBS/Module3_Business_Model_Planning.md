@@ -139,10 +139,8 @@ Online services that allow you to create your BMC:
 **Key question:** *Who are we actually building this for and are they all the same, or are
 there distinct segments with different needs?*
 
-```{note}
-You developed your primary customer persona in Module 2. Use it here, and consider
+> You developed your primary customer persona in Module 2. Use it here, and consider
 whether there are secondary segments worth capturing in the BMC.
-```
 
 **Reference Prompt:**
 ```
@@ -155,7 +153,7 @@ early stage.
 ### Block 2: Value Proposition (VP)
 
 **Definition:** The bundle of products and services that creates value for a specific customer
-segment — addressing pains, generating gains, or enabling customer jobs.
+segment, addressing pains, generating gains, or enabling customer jobs.
 
 **Key question:** *What specific combination of features, outcomes, and experiences makes
 our offer genuinely valuable?*
@@ -165,7 +163,7 @@ BMC here and refine it in light of feasibility and viability considerations.
 
 ### Block 3: Channels (CH)
 
-**Definition:** How you reach and deliver value to your customer segments — including
+**Definition:** How you reach and deliver value to your customer segments, including
 awareness, evaluation, purchase, delivery, and after-sales support.
 
 **Channel types:**
@@ -200,7 +198,7 @@ segment, from fully automated to deeply personal.
 
 ### Block 5: Revenue Streams (R$)
 
-**Definition:** How the company generates cash from each customer segment — the pricing
+**Definition:** How the company generates cash from each customer segment; the pricing
 mechanisms and revenue models that sustain the business.
 
 **Common revenue models for AI-enabled startups:**
@@ -282,8 +280,8 @@ year. For each partnership:
 **Definition:** The most significant costs involved in operating the business model.
 
 **Key distinction:**
-- **Fixed costs**: Do not vary with volume — salaries, office space, software subscriptions.
-- **Variable costs**: Scale with activity — API costs per query, cloud compute per user,
+- **Fixed costs**: Do not vary with volume, such as salaries, office space, software subscriptions.
+- **Variable costs**: Scale with activity, such as API costs per query, cloud compute per user,
   transaction fees.
 - **AI-specific cost drivers**: LLM API costs (can be significant at scale), data storage,
   model training compute, and human-in-the-loop review processes.
@@ -323,7 +321,7 @@ and most in need of validation.
 
 ## 3.3 Legal Essentials for AI Founders
 
-Legal considerations are often deferred by early-stage founders — usually until they become
+Legal considerations are often deferred by early-stage founders, usually until they become
 urgent. In the AI space, deferring certain legal decisions can create serious structural
 problems later. This section provides a focused overview of what founders need to understand
 from day one.
@@ -384,7 +382,7 @@ I am an early-stage founder, not yet funded.
 
 ## 3.4 The Funding Landscape
 
-Understanding the funding landscape helps you make better decisions about how to grow —
+Understanding the funding landscape helps you make better decisions about how to grow,
 even if you are not currently seeking investment. Knowing what investors look for sharpens
 your planning discipline and prepares you for future conversations.
 
@@ -408,7 +406,7 @@ overlooked and highly valuable:
   grants for social impact ventures.
 - **Business competitions**: Many universities and accelerators run competitions with
   prize money and in-kind support.
-- **Revenue**: The simplest non-dilutive capital — customers who pay before you build
+- **Revenue**: The simplest non-dilutive capital. Customers who pay before you build
   the full product (letters of intent, pre-sales, pilots).
 - **Incubators and accelerators**: Programs like Y Combinator, Techstars, and university-based
   accelerators often provide funding, mentorship, and network access in exchange for a small
@@ -423,7 +421,7 @@ of importance:
    relevant domain expertise, resilience, and coachability?
 2. **Problem and market**: Is the problem real and painful enough for a large enough group
    of people to support a significant business?
-3. **Early traction**: Is there any evidence — even small signals — that real customers care?
+3. **Early traction**: Is there any evidence, even small signals, that real customers care?
    (Paid pilots, waitlist sign-ups, letters of intent, early revenue.)
 
 Your AI Company Blueprint, when complete, should address all three of these dimensions.
